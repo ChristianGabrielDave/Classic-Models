@@ -12,9 +12,29 @@ namespace ClassicModels
 {
     public partial class FrmLogin : Form
     {
+        ClassicModels cm = new ClassicModels();
         public FrmLogin()
         {
             InitializeComponent();
+        }
+
+        private void BttnLgn_Click(object sender, EventArgs e)
+        {
+            if (cm.Authentication(TxtbxUsn.Text.Trim(), TxtbxPass.Text.Trim()))
+            {
+                FrmMain mainFrm = new FrmMain();
+                this.Hide();
+                mainFrm.ShowDialog();
+                this.Close();
+            }
+
+        }
+
+        private void BttnCncl_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
+            BttnCncl.Enabled = true;
         }
     }
 }

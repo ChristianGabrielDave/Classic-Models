@@ -34,6 +34,7 @@
             this.TxtbxUsn = new System.Windows.Forms.TextBox();
             this.TxtbxPass = new System.Windows.Forms.TextBox();
             this.BttnLgn = new System.Windows.Forms.Button();
+            this.BttnCncl = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // LblSalesSystem
@@ -81,18 +82,32 @@
             this.TxtbxPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxPass.Location = new System.Drawing.Point(317, 231);
             this.TxtbxPass.Name = "TxtbxPass";
+            this.TxtbxPass.PasswordChar = '0';
             this.TxtbxPass.Size = new System.Drawing.Size(353, 34);
             this.TxtbxPass.TabIndex = 4;
+            this.TxtbxPass.UseSystemPasswordChar = true;
             // 
             // BttnLgn
             // 
             this.BttnLgn.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnLgn.Location = new System.Drawing.Point(412, 285);
+            this.BttnLgn.Location = new System.Drawing.Point(317, 289);
             this.BttnLgn.Name = "BttnLgn";
             this.BttnLgn.Size = new System.Drawing.Size(165, 42);
             this.BttnLgn.TabIndex = 5;
             this.BttnLgn.Text = "Login";
             this.BttnLgn.UseVisualStyleBackColor = true;
+            this.BttnLgn.Click += new System.EventHandler(this.BttnLgn_Click);
+            // 
+            // BttnCncl
+            // 
+            this.BttnCncl.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BttnCncl.Location = new System.Drawing.Point(505, 289);
+            this.BttnCncl.Name = "BttnCncl";
+            this.BttnCncl.Size = new System.Drawing.Size(165, 42);
+            this.BttnCncl.TabIndex = 6;
+            this.BttnCncl.Text = "Cancel";
+            this.BttnCncl.UseVisualStyleBackColor = true;
+            this.BttnCncl.Click += new System.EventHandler(this.BttnCncl_Click);
             // 
             // FrmLogin
             // 
@@ -100,6 +115,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BttnCncl);
             this.Controls.Add(this.BttnLgn);
             this.Controls.Add(this.TxtbxPass);
             this.Controls.Add(this.TxtbxUsn);
@@ -121,6 +137,7 @@
         private System.Windows.Forms.TextBox TxtbxUsn;
         private System.Windows.Forms.TextBox TxtbxPass;
         private System.Windows.Forms.Button BttnLgn;
+        private System.Windows.Forms.Button BttnCncl;
     }
 }
 

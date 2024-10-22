@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data">
+      <HintPath>..\..\..\Downloads\Programming\MySql.Data.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,11 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassicModels.cs" />
     <Compile Include="FrmCustomers.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmCustomers.Designer.cs">
       <DependentUpon>FrmCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployees.Designer.cs">
+      <DependentUpon>FrmEmployees.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmLogin.cs">
       <SubType>Form</SubType>
@@ -64,16 +74,64 @@
     <Compile Include="FrmMain.Designer.cs">
       <DependentUpon>FrmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmOffices.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOffices.Designer.cs">
+      <DependentUpon>FrmOffices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrders.Designer.cs">
+      <DependentUpon>FrmOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPayments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPayments.Designer.cs">
+      <DependentUpon>FrmPayments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProductLines.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProductLines.Designer.cs">
+      <DependentUpon>FrmProductLines.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProducts.Designer.cs">
+      <DependentUpon>FrmProducts.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCustomers.resx">
       <DependentUpon>FrmCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployees.resx">
+      <DependentUpon>FrmEmployees.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOffices.resx">
+      <DependentUpon>FrmOffices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrders.resx">
+      <DependentUpon>FrmOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPayments.resx">
+      <DependentUpon>FrmPayments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProductLines.resx">
+      <DependentUpon>FrmProductLines.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProducts.resx">
+      <DependentUpon>FrmProducts.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

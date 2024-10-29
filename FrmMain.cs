@@ -65,5 +65,12 @@ namespace ClassicModels
             frmPayments.MdiParent = this;
             frmPayments.Show();
         }
+
+        private void orderDetailsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmOrderDetails frmOrderDetails = new FrmOrderDetails();
+            frmOrderDetails.MdiParent = this;
+            frmOrderDetails.Show();
+        }
     }
 }

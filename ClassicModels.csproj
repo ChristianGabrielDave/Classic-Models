@@ -80,6 +80,12 @@
     <Compile Include="FrmOffices.Designer.cs">
       <DependentUpon>FrmOffices.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmOrderDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmOrderDetails.Designer.cs">
+      <DependentUpon>FrmOrderDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmOrders.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +126,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOffices.resx">
       <DependentUpon>FrmOffices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmOrderDetails.resx">
+      <DependentUpon>FrmOrderDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOrders.resx">
       <DependentUpon>FrmOrders.cs</DependentUpon>

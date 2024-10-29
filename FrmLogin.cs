@@ -33,8 +33,6 @@ namespace ClassicModels
         private void BttnCncl_Click(object sender, EventArgs e)
         {
             this.Close();
-
-            BttnCncl.Enabled = true;
         }
     }
 }

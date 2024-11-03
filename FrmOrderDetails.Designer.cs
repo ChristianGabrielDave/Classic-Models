@@ -35,26 +35,26 @@
             this.BttnSave = new System.Windows.Forms.Button();
             this.BttnDelete = new System.Windows.Forms.Button();
             this.BttnNew = new System.Windows.Forms.Button();
-            this.TxtbxPhnNmbr = new System.Windows.Forms.TextBox();
-            this.TxtbxCntctFN = new System.Windows.Forms.TextBox();
-            this.TxtbxCntctLN = new System.Windows.Forms.TextBox();
-            this.TxtbxCstmrNm = new System.Windows.Forms.TextBox();
-            this.TxtbxCstmrNmbr = new System.Windows.Forms.TextBox();
+            this.TxtbxQnttOrdrd = new System.Windows.Forms.TextBox();
+            this.TxtbxPrcEach = new System.Windows.Forms.TextBox();
+            this.TxtbxPrdctCd = new System.Windows.Forms.TextBox();
+            this.TxtbxOrdrLnNmbr = new System.Windows.Forms.TextBox();
+            this.TxtbxOrdrNmbr = new System.Windows.Forms.TextBox();
             this.BttnLast = new System.Windows.Forms.Button();
             this.BttnNext = new System.Windows.Forms.Button();
             this.BttnPrevious = new System.Windows.Forms.Button();
             this.BttnFirst = new System.Windows.Forms.Button();
-            this.LblPhnNmbr = new System.Windows.Forms.Label();
-            this.LblCntctFN = new System.Windows.Forms.Label();
-            this.LblCntctLN = new System.Windows.Forms.Label();
-            this.LblCstmrNm = new System.Windows.Forms.Label();
-            this.LblCstmrNmbr = new System.Windows.Forms.Label();
+            this.LblOrdrLnNmbr = new System.Windows.Forms.Label();
+            this.LblPrcEach = new System.Windows.Forms.Label();
+            this.LblQnttOrdrd = new System.Windows.Forms.Label();
+            this.LblPrdctCd = new System.Windows.Forms.Label();
+            this.LblOrdrNmbr = new System.Windows.Forms.Label();
             this.ViewOrdrDtls = new System.Windows.Forms.TabPage();
             this.DtgrdOrdrDtls = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.LastBttn = new System.Windows.Forms.Button();
+            this.NextBttn = new System.Windows.Forms.Button();
+            this.PreviousBttn = new System.Windows.Forms.Button();
+            this.FirstBttn = new System.Windows.Forms.Button();
             this.TbcntrlOrdrDtls.SuspendLayout();
             this.NewOrdrDtls.SuspendLayout();
             this.ViewOrdrDtls.SuspendLayout();
@@ -67,53 +67,53 @@
             this.TbcntrlOrdrDtls.Controls.Add(this.ViewOrdrDtls);
             this.TbcntrlOrdrDtls.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TbcntrlOrdrDtls.Location = new System.Drawing.Point(0, 0);
-            this.TbcntrlOrdrDtls.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TbcntrlOrdrDtls.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TbcntrlOrdrDtls.Name = "TbcntrlOrdrDtls";
             this.TbcntrlOrdrDtls.SelectedIndex = 0;
-            this.TbcntrlOrdrDtls.Size = new System.Drawing.Size(1201, 693);
+            this.TbcntrlOrdrDtls.Size = new System.Drawing.Size(898, 327);
             this.TbcntrlOrdrDtls.TabIndex = 2;
             // 
             // NewOrdrDtls
             // 
             this.NewOrdrDtls.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.NewOrdrDtls.Controls.Add(this.button1);
-            this.NewOrdrDtls.Controls.Add(this.button2);
-            this.NewOrdrDtls.Controls.Add(this.button3);
-            this.NewOrdrDtls.Controls.Add(this.button4);
+            this.NewOrdrDtls.Controls.Add(this.LastBttn);
+            this.NewOrdrDtls.Controls.Add(this.NextBttn);
+            this.NewOrdrDtls.Controls.Add(this.PreviousBttn);
+            this.NewOrdrDtls.Controls.Add(this.FirstBttn);
             this.NewOrdrDtls.Controls.Add(this.BttnCancel);
             this.NewOrdrDtls.Controls.Add(this.BttnUpdate);
             this.NewOrdrDtls.Controls.Add(this.BttnSave);
             this.NewOrdrDtls.Controls.Add(this.BttnDelete);
             this.NewOrdrDtls.Controls.Add(this.BttnNew);
-            this.NewOrdrDtls.Controls.Add(this.TxtbxPhnNmbr);
-            this.NewOrdrDtls.Controls.Add(this.TxtbxCntctFN);
-            this.NewOrdrDtls.Controls.Add(this.TxtbxCntctLN);
-            this.NewOrdrDtls.Controls.Add(this.TxtbxCstmrNm);
-            this.NewOrdrDtls.Controls.Add(this.TxtbxCstmrNmbr);
+            this.NewOrdrDtls.Controls.Add(this.TxtbxQnttOrdrd);
+            this.NewOrdrDtls.Controls.Add(this.TxtbxPrcEach);
+            this.NewOrdrDtls.Controls.Add(this.TxtbxPrdctCd);
+            this.NewOrdrDtls.Controls.Add(this.TxtbxOrdrLnNmbr);
+            this.NewOrdrDtls.Controls.Add(this.TxtbxOrdrNmbr);
             this.NewOrdrDtls.Controls.Add(this.BttnLast);
             this.NewOrdrDtls.Controls.Add(this.BttnNext);
             this.NewOrdrDtls.Controls.Add(this.BttnPrevious);
             this.NewOrdrDtls.Controls.Add(this.BttnFirst);
-            this.NewOrdrDtls.Controls.Add(this.LblPhnNmbr);
-            this.NewOrdrDtls.Controls.Add(this.LblCntctFN);
-            this.NewOrdrDtls.Controls.Add(this.LblCntctLN);
-            this.NewOrdrDtls.Controls.Add(this.LblCstmrNm);
-            this.NewOrdrDtls.Controls.Add(this.LblCstmrNmbr);
-            this.NewOrdrDtls.Location = new System.Drawing.Point(4, 25);
-            this.NewOrdrDtls.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.NewOrdrDtls.Controls.Add(this.LblOrdrLnNmbr);
+            this.NewOrdrDtls.Controls.Add(this.LblPrcEach);
+            this.NewOrdrDtls.Controls.Add(this.LblQnttOrdrd);
+            this.NewOrdrDtls.Controls.Add(this.LblPrdctCd);
+            this.NewOrdrDtls.Controls.Add(this.LblOrdrNmbr);
+            this.NewOrdrDtls.Location = new System.Drawing.Point(4, 22);
+            this.NewOrdrDtls.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NewOrdrDtls.Name = "NewOrdrDtls";
-            this.NewOrdrDtls.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.NewOrdrDtls.Size = new System.Drawing.Size(1193, 664);
+            this.NewOrdrDtls.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NewOrdrDtls.Size = new System.Drawing.Size(890, 301);
             this.NewOrdrDtls.TabIndex = 0;
             this.NewOrdrDtls.Text = "New Order Detail";
             // 
             // BttnCancel
             // 
             this.BttnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnCancel.Location = new System.Drawing.Point(817, 539);
-            this.BttnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnCancel.Location = new System.Drawing.Point(629, 96);
+            this.BttnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnCancel.Name = "BttnCancel";
-            this.BttnCancel.Size = new System.Drawing.Size(173, 41);
+            this.BttnCancel.Size = new System.Drawing.Size(130, 33);
             this.BttnCancel.TabIndex = 37;
             this.BttnCancel.Text = "Cancel";
             this.BttnCancel.UseVisualStyleBackColor = true;
@@ -121,10 +121,10 @@
             // BttnUpdate
             // 
             this.BttnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnUpdate.Location = new System.Drawing.Point(946, 478);
-            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnUpdate.Location = new System.Drawing.Point(724, 56);
+            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnUpdate.Name = "BttnUpdate";
-            this.BttnUpdate.Size = new System.Drawing.Size(173, 41);
+            this.BttnUpdate.Size = new System.Drawing.Size(130, 33);
             this.BttnUpdate.TabIndex = 36;
             this.BttnUpdate.Text = "Update";
             this.BttnUpdate.UseVisualStyleBackColor = true;
@@ -132,10 +132,10 @@
             // BttnSave
             // 
             this.BttnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnSave.Location = new System.Drawing.Point(692, 478);
-            this.BttnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnSave.Location = new System.Drawing.Point(533, 56);
+            this.BttnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnSave.Name = "BttnSave";
-            this.BttnSave.Size = new System.Drawing.Size(173, 41);
+            this.BttnSave.Size = new System.Drawing.Size(130, 33);
             this.BttnSave.TabIndex = 35;
             this.BttnSave.Text = "Save";
             this.BttnSave.UseVisualStyleBackColor = true;
@@ -143,10 +143,10 @@
             // BttnDelete
             // 
             this.BttnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnDelete.Location = new System.Drawing.Point(946, 423);
-            this.BttnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnDelete.Location = new System.Drawing.Point(724, 12);
+            this.BttnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnDelete.Name = "BttnDelete";
-            this.BttnDelete.Size = new System.Drawing.Size(173, 41);
+            this.BttnDelete.Size = new System.Drawing.Size(130, 33);
             this.BttnDelete.TabIndex = 34;
             this.BttnDelete.Text = "Delete";
             this.BttnDelete.UseVisualStyleBackColor = true;
@@ -154,71 +154,71 @@
             // BttnNew
             // 
             this.BttnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnNew.Location = new System.Drawing.Point(692, 423);
-            this.BttnNew.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnNew.Location = new System.Drawing.Point(533, 12);
+            this.BttnNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnNew.Name = "BttnNew";
-            this.BttnNew.Size = new System.Drawing.Size(173, 41);
+            this.BttnNew.Size = new System.Drawing.Size(130, 33);
             this.BttnNew.TabIndex = 33;
             this.BttnNew.Text = "New";
             this.BttnNew.UseVisualStyleBackColor = true;
             // 
-            // TxtbxPhnNmbr
+            // TxtbxQnttOrdrd
             // 
-            this.TxtbxPhnNmbr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxPhnNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPhnNmbr.Location = new System.Drawing.Point(313, 226);
-            this.TxtbxPhnNmbr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxPhnNmbr.Name = "TxtbxPhnNmbr";
-            this.TxtbxPhnNmbr.Size = new System.Drawing.Size(806, 38);
-            this.TxtbxPhnNmbr.TabIndex = 21;
+            this.TxtbxQnttOrdrd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxQnttOrdrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxQnttOrdrd.Location = new System.Drawing.Point(254, 184);
+            this.TxtbxQnttOrdrd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxQnttOrdrd.Name = "TxtbxQnttOrdrd";
+            this.TxtbxQnttOrdrd.Size = new System.Drawing.Size(600, 32);
+            this.TxtbxQnttOrdrd.TabIndex = 21;
             // 
-            // TxtbxCntctFN
+            // TxtbxPrcEach
             // 
-            this.TxtbxCntctFN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxCntctFN.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCntctFN.Location = new System.Drawing.Point(313, 174);
-            this.TxtbxCntctFN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxCntctFN.Name = "TxtbxCntctFN";
-            this.TxtbxCntctFN.Size = new System.Drawing.Size(806, 38);
-            this.TxtbxCntctFN.TabIndex = 20;
+            this.TxtbxPrcEach.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxPrcEach.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxPrcEach.Location = new System.Drawing.Point(254, 138);
+            this.TxtbxPrcEach.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrcEach.Name = "TxtbxPrcEach";
+            this.TxtbxPrcEach.Size = new System.Drawing.Size(600, 32);
+            this.TxtbxPrcEach.TabIndex = 20;
             // 
-            // TxtbxCntctLN
+            // TxtbxPrdctCd
             // 
-            this.TxtbxCntctLN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxCntctLN.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCntctLN.Location = new System.Drawing.Point(313, 118);
-            this.TxtbxCntctLN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxCntctLN.Name = "TxtbxCntctLN";
-            this.TxtbxCntctLN.Size = new System.Drawing.Size(806, 38);
-            this.TxtbxCntctLN.TabIndex = 19;
+            this.TxtbxPrdctCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxPrdctCd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxPrdctCd.Location = new System.Drawing.Point(254, 96);
+            this.TxtbxPrdctCd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrdctCd.Name = "TxtbxPrdctCd";
+            this.TxtbxPrdctCd.Size = new System.Drawing.Size(246, 32);
+            this.TxtbxPrdctCd.TabIndex = 19;
             // 
-            // TxtbxCstmrNm
+            // TxtbxOrdrLnNmbr
             // 
-            this.TxtbxCstmrNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxCstmrNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCstmrNm.Location = new System.Drawing.Point(313, 61);
-            this.TxtbxCstmrNm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxCstmrNm.Name = "TxtbxCstmrNm";
-            this.TxtbxCstmrNm.Size = new System.Drawing.Size(806, 38);
-            this.TxtbxCstmrNm.TabIndex = 18;
+            this.TxtbxOrdrLnNmbr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxOrdrLnNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxOrdrLnNmbr.Location = new System.Drawing.Point(254, 54);
+            this.TxtbxOrdrLnNmbr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxOrdrLnNmbr.Name = "TxtbxOrdrLnNmbr";
+            this.TxtbxOrdrLnNmbr.Size = new System.Drawing.Size(246, 32);
+            this.TxtbxOrdrLnNmbr.TabIndex = 18;
             // 
-            // TxtbxCstmrNmbr
+            // TxtbxOrdrNmbr
             // 
-            this.TxtbxCstmrNmbr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxCstmrNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCstmrNmbr.Location = new System.Drawing.Point(313, 13);
-            this.TxtbxCstmrNmbr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxCstmrNmbr.Name = "TxtbxCstmrNmbr";
-            this.TxtbxCstmrNmbr.Size = new System.Drawing.Size(327, 38);
-            this.TxtbxCstmrNmbr.TabIndex = 16;
+            this.TxtbxOrdrNmbr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxOrdrNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxOrdrNmbr.Location = new System.Drawing.Point(254, 8);
+            this.TxtbxOrdrNmbr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxOrdrNmbr.Name = "TxtbxOrdrNmbr";
+            this.TxtbxOrdrNmbr.Size = new System.Drawing.Size(246, 32);
+            this.TxtbxOrdrNmbr.TabIndex = 16;
             // 
             // BttnLast
             // 
             this.BttnLast.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnLast.Location = new System.Drawing.Point(946, 667);
-            this.BttnLast.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnLast.Location = new System.Drawing.Point(710, 542);
+            this.BttnLast.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnLast.Name = "BttnLast";
-            this.BttnLast.Size = new System.Drawing.Size(173, 41);
+            this.BttnLast.Size = new System.Drawing.Size(130, 33);
             this.BttnLast.TabIndex = 15;
             this.BttnLast.Text = "Last";
             this.BttnLast.UseVisualStyleBackColor = true;
@@ -226,10 +226,10 @@
             // BttnNext
             // 
             this.BttnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnNext.Location = new System.Drawing.Point(523, 667);
-            this.BttnNext.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnNext.Location = new System.Drawing.Point(392, 542);
+            this.BttnNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnNext.Name = "BttnNext";
-            this.BttnNext.Size = new System.Drawing.Size(173, 41);
+            this.BttnNext.Size = new System.Drawing.Size(130, 33);
             this.BttnNext.TabIndex = 14;
             this.BttnNext.Text = "Next";
             this.BttnNext.UseVisualStyleBackColor = true;
@@ -237,10 +237,10 @@
             // BttnPrevious
             // 
             this.BttnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnPrevious.Location = new System.Drawing.Point(733, 667);
-            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnPrevious.Location = new System.Drawing.Point(550, 542);
+            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnPrevious.Name = "BttnPrevious";
-            this.BttnPrevious.Size = new System.Drawing.Size(173, 41);
+            this.BttnPrevious.Size = new System.Drawing.Size(130, 33);
             this.BttnPrevious.TabIndex = 14;
             this.BttnPrevious.Text = "Previous";
             this.BttnPrevious.UseVisualStyleBackColor = true;
@@ -248,78 +248,83 @@
             // BttnFirst
             // 
             this.BttnFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnFirst.Location = new System.Drawing.Point(313, 667);
-            this.BttnFirst.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnFirst.Location = new System.Drawing.Point(235, 542);
+            this.BttnFirst.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnFirst.Name = "BttnFirst";
-            this.BttnFirst.Size = new System.Drawing.Size(173, 41);
+            this.BttnFirst.Size = new System.Drawing.Size(130, 33);
             this.BttnFirst.TabIndex = 13;
             this.BttnFirst.Text = "First";
             this.BttnFirst.UseVisualStyleBackColor = true;
             // 
-            // LblPhnNmbr
+            // LblOrdrLnNmbr
             // 
-            this.LblPhnNmbr.AutoSize = true;
-            this.LblPhnNmbr.BackColor = System.Drawing.Color.Transparent;
-            this.LblPhnNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPhnNmbr.Location = new System.Drawing.Point(31, 228);
-            this.LblPhnNmbr.Name = "LblPhnNmbr";
-            this.LblPhnNmbr.Size = new System.Drawing.Size(276, 36);
-            this.LblPhnNmbr.TabIndex = 8;
-            this.LblPhnNmbr.Text = "Order Line Number:";
+            this.LblOrdrLnNmbr.AutoSize = true;
+            this.LblOrdrLnNmbr.BackColor = System.Drawing.Color.Transparent;
+            this.LblOrdrLnNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblOrdrLnNmbr.Location = new System.Drawing.Point(7, 57);
+            this.LblOrdrLnNmbr.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblOrdrLnNmbr.Name = "LblOrdrLnNmbr";
+            this.LblOrdrLnNmbr.Size = new System.Drawing.Size(227, 29);
+            this.LblOrdrLnNmbr.TabIndex = 8;
+            this.LblOrdrLnNmbr.Text = "Order Line Number:";
             // 
-            // LblCntctFN
+            // LblPrcEach
             // 
-            this.LblCntctFN.AutoSize = true;
-            this.LblCntctFN.BackColor = System.Drawing.Color.Transparent;
-            this.LblCntctFN.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCntctFN.Location = new System.Drawing.Point(18, 176);
-            this.LblCntctFN.Name = "LblCntctFN";
-            this.LblCntctFN.Size = new System.Drawing.Size(167, 36);
-            this.LblCntctFN.TabIndex = 7;
-            this.LblCntctFN.Text = "Price Each:";
+            this.LblPrcEach.AutoSize = true;
+            this.LblPrcEach.BackColor = System.Drawing.Color.Transparent;
+            this.LblPrcEach.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPrcEach.Location = new System.Drawing.Point(99, 141);
+            this.LblPrcEach.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblPrcEach.Name = "LblPrcEach";
+            this.LblPrcEach.Size = new System.Drawing.Size(135, 29);
+            this.LblPrcEach.TabIndex = 7;
+            this.LblPrcEach.Text = "Price Each:";
             // 
-            // LblCntctLN
+            // LblQnttOrdrd
             // 
-            this.LblCntctLN.AutoSize = true;
-            this.LblCntctLN.BackColor = System.Drawing.Color.Transparent;
-            this.LblCntctLN.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCntctLN.Location = new System.Drawing.Point(20, 120);
-            this.LblCntctLN.Name = "LblCntctLN";
-            this.LblCntctLN.Size = new System.Drawing.Size(249, 36);
-            this.LblCntctLN.TabIndex = 6;
-            this.LblCntctLN.Text = "Quantity Ordered:";
+            this.LblQnttOrdrd.AutoSize = true;
+            this.LblQnttOrdrd.BackColor = System.Drawing.Color.Transparent;
+            this.LblQnttOrdrd.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblQnttOrdrd.Location = new System.Drawing.Point(31, 187);
+            this.LblQnttOrdrd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblQnttOrdrd.Name = "LblQnttOrdrd";
+            this.LblQnttOrdrd.Size = new System.Drawing.Size(203, 29);
+            this.LblQnttOrdrd.TabIndex = 6;
+            this.LblQnttOrdrd.Text = "Quantity Ordered:";
             // 
-            // LblCstmrNm
+            // LblPrdctCd
             // 
-            this.LblCstmrNm.AutoSize = true;
-            this.LblCstmrNm.BackColor = System.Drawing.Color.Transparent;
-            this.LblCstmrNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCstmrNm.Location = new System.Drawing.Point(59, 63);
-            this.LblCstmrNm.Name = "LblCstmrNm";
-            this.LblCstmrNm.Size = new System.Drawing.Size(206, 36);
-            this.LblCstmrNm.TabIndex = 5;
-            this.LblCstmrNm.Text = "Product Code:";
+            this.LblPrdctCd.AutoSize = true;
+            this.LblPrdctCd.BackColor = System.Drawing.Color.Transparent;
+            this.LblPrdctCd.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPrdctCd.Location = new System.Drawing.Point(67, 99);
+            this.LblPrdctCd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblPrdctCd.Name = "LblPrdctCd";
+            this.LblPrdctCd.Size = new System.Drawing.Size(167, 29);
+            this.LblPrdctCd.TabIndex = 5;
+            this.LblPrdctCd.Text = "Product Code:";
             // 
-            // LblCstmrNmbr
+            // LblOrdrNmbr
             // 
-            this.LblCstmrNmbr.AutoSize = true;
-            this.LblCstmrNmbr.BackColor = System.Drawing.Color.Transparent;
-            this.LblCstmrNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCstmrNmbr.Location = new System.Drawing.Point(29, 15);
-            this.LblCstmrNmbr.Name = "LblCstmrNmbr";
-            this.LblCstmrNmbr.Size = new System.Drawing.Size(211, 36);
-            this.LblCstmrNmbr.TabIndex = 0;
-            this.LblCstmrNmbr.Text = "Order Number:";
+            this.LblOrdrNmbr.AutoSize = true;
+            this.LblOrdrNmbr.BackColor = System.Drawing.Color.Transparent;
+            this.LblOrdrNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblOrdrNmbr.Location = new System.Drawing.Point(59, 11);
+            this.LblOrdrNmbr.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblOrdrNmbr.Name = "LblOrdrNmbr";
+            this.LblOrdrNmbr.Size = new System.Drawing.Size(175, 29);
+            this.LblOrdrNmbr.TabIndex = 0;
+            this.LblOrdrNmbr.Text = "Order Number:";
             // 
             // ViewOrdrDtls
             // 
             this.ViewOrdrDtls.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ViewOrdrDtls.Controls.Add(this.DtgrdOrdrDtls);
-            this.ViewOrdrDtls.Location = new System.Drawing.Point(4, 25);
-            this.ViewOrdrDtls.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ViewOrdrDtls.Location = new System.Drawing.Point(4, 22);
+            this.ViewOrdrDtls.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ViewOrdrDtls.Name = "ViewOrdrDtls";
-            this.ViewOrdrDtls.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ViewOrdrDtls.Size = new System.Drawing.Size(1193, 664);
+            this.ViewOrdrDtls.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ViewOrdrDtls.Size = new System.Drawing.Size(893, 537);
             this.ViewOrdrDtls.TabIndex = 1;
             this.ViewOrdrDtls.Text = "View Order Details";
             // 
@@ -328,65 +333,66 @@
             this.DtgrdOrdrDtls.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.DtgrdOrdrDtls.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgrdOrdrDtls.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DtgrdOrdrDtls.Location = new System.Drawing.Point(3, 2);
-            this.DtgrdOrdrDtls.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DtgrdOrdrDtls.Location = new System.Drawing.Point(2, 2);
+            this.DtgrdOrdrDtls.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DtgrdOrdrDtls.Name = "DtgrdOrdrDtls";
             this.DtgrdOrdrDtls.RowHeadersWidth = 51;
             this.DtgrdOrdrDtls.RowTemplate.Height = 24;
-            this.DtgrdOrdrDtls.Size = new System.Drawing.Size(1187, 660);
+            this.DtgrdOrdrDtls.Size = new System.Drawing.Size(889, 533);
             this.DtgrdOrdrDtls.TabIndex = 0;
             // 
-            // button1
+            // LastBttn
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(826, 312);
-            this.button1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(173, 41);
-            this.button1.TabIndex = 41;
-            this.button1.Text = "Last";
-            this.button1.UseVisualStyleBackColor = true;
+            this.LastBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LastBttn.Location = new System.Drawing.Point(739, 234);
+            this.LastBttn.Margin = new System.Windows.Forms.Padding(2);
+            this.LastBttn.Name = "LastBttn";
+            this.LastBttn.Size = new System.Drawing.Size(115, 33);
+            this.LastBttn.TabIndex = 41;
+            this.LastBttn.Text = "Last";
+            this.LastBttn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // NextBttn
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(403, 312);
-            this.button2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(173, 41);
-            this.button2.TabIndex = 39;
-            this.button2.Text = "Next";
-            this.button2.UseVisualStyleBackColor = true;
+            this.NextBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextBttn.Location = new System.Drawing.Point(418, 234);
+            this.NextBttn.Margin = new System.Windows.Forms.Padding(2);
+            this.NextBttn.Name = "NextBttn";
+            this.NextBttn.Size = new System.Drawing.Size(115, 33);
+            this.NextBttn.TabIndex = 39;
+            this.NextBttn.Text = "Next";
+            this.NextBttn.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // PreviousBttn
             // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(613, 312);
-            this.button3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(173, 41);
-            this.button3.TabIndex = 40;
-            this.button3.Text = "Previous";
-            this.button3.UseVisualStyleBackColor = true;
+            this.PreviousBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PreviousBttn.Location = new System.Drawing.Point(577, 234);
+            this.PreviousBttn.Margin = new System.Windows.Forms.Padding(2);
+            this.PreviousBttn.Name = "PreviousBttn";
+            this.PreviousBttn.Size = new System.Drawing.Size(115, 33);
+            this.PreviousBttn.TabIndex = 40;
+            this.PreviousBttn.Text = "Previous";
+            this.PreviousBttn.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // FirstBttn
             // 
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(193, 312);
-            this.button4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(173, 41);
-            this.button4.TabIndex = 38;
-            this.button4.Text = "First";
-            this.button4.UseVisualStyleBackColor = true;
+            this.FirstBttn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FirstBttn.Location = new System.Drawing.Point(254, 234);
+            this.FirstBttn.Margin = new System.Windows.Forms.Padding(2);
+            this.FirstBttn.Name = "FirstBttn";
+            this.FirstBttn.Size = new System.Drawing.Size(115, 33);
+            this.FirstBttn.TabIndex = 38;
+            this.FirstBttn.Text = "First";
+            this.FirstBttn.UseVisualStyleBackColor = true;
             // 
             // FrmOrderDetails
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1201, 693);
+            this.ClientSize = new System.Drawing.Size(898, 327);
             this.Controls.Add(this.TbcntrlOrdrDtls);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmOrderDetails";
             this.Text = "Order Details";
             this.TbcntrlOrdrDtls.ResumeLayout(false);
@@ -407,25 +413,25 @@
         private System.Windows.Forms.Button BttnSave;
         private System.Windows.Forms.Button BttnDelete;
         private System.Windows.Forms.Button BttnNew;
-        private System.Windows.Forms.TextBox TxtbxPhnNmbr;
-        private System.Windows.Forms.TextBox TxtbxCntctFN;
-        private System.Windows.Forms.TextBox TxtbxCntctLN;
-        private System.Windows.Forms.TextBox TxtbxCstmrNm;
-        private System.Windows.Forms.TextBox TxtbxCstmrNmbr;
+        private System.Windows.Forms.TextBox TxtbxQnttOrdrd;
+        private System.Windows.Forms.TextBox TxtbxPrcEach;
+        private System.Windows.Forms.TextBox TxtbxPrdctCd;
+        private System.Windows.Forms.TextBox TxtbxOrdrLnNmbr;
+        private System.Windows.Forms.TextBox TxtbxOrdrNmbr;
         private System.Windows.Forms.Button BttnLast;
         private System.Windows.Forms.Button BttnNext;
         private System.Windows.Forms.Button BttnPrevious;
         private System.Windows.Forms.Button BttnFirst;
-        private System.Windows.Forms.Label LblPhnNmbr;
-        private System.Windows.Forms.Label LblCntctFN;
-        private System.Windows.Forms.Label LblCntctLN;
-        private System.Windows.Forms.Label LblCstmrNm;
-        private System.Windows.Forms.Label LblCstmrNmbr;
+        private System.Windows.Forms.Label LblOrdrLnNmbr;
+        private System.Windows.Forms.Label LblPrcEach;
+        private System.Windows.Forms.Label LblQnttOrdrd;
+        private System.Windows.Forms.Label LblPrdctCd;
+        private System.Windows.Forms.Label LblOrdrNmbr;
         private System.Windows.Forms.TabPage ViewOrdrDtls;
         private System.Windows.Forms.DataGridView DtgrdOrdrDtls;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button LastBttn;
+        private System.Windows.Forms.Button NextBttn;
+        private System.Windows.Forms.Button PreviousBttn;
+        private System.Windows.Forms.Button FirstBttn;
     }
 }

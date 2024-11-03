@@ -69,10 +69,11 @@
             // 
             this.TbcntrlPrdcts.Controls.Add(this.NewPrdcts);
             this.TbcntrlPrdcts.Controls.Add(this.ViewPrdcts);
-            this.TbcntrlPrdcts.Location = new System.Drawing.Point(-3, -3);
+            this.TbcntrlPrdcts.Location = new System.Drawing.Point(-2, -2);
+            this.TbcntrlPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TbcntrlPrdcts.Name = "TbcntrlPrdcts";
             this.TbcntrlPrdcts.SelectedIndex = 0;
-            this.TbcntrlPrdcts.Size = new System.Drawing.Size(1071, 738);
+            this.TbcntrlPrdcts.Size = new System.Drawing.Size(803, 600);
             this.TbcntrlPrdcts.TabIndex = 0;
             // 
             // NewPrdcts
@@ -105,20 +106,21 @@
             this.NewPrdcts.Controls.Add(this.LblMSRP);
             this.NewPrdcts.Controls.Add(this.TxtbxQntStck);
             this.NewPrdcts.Controls.Add(this.LblPrdctCd);
-            this.NewPrdcts.Location = new System.Drawing.Point(4, 25);
+            this.NewPrdcts.Location = new System.Drawing.Point(4, 22);
+            this.NewPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NewPrdcts.Name = "NewPrdcts";
-            this.NewPrdcts.Padding = new System.Windows.Forms.Padding(3);
-            this.NewPrdcts.Size = new System.Drawing.Size(1063, 709);
+            this.NewPrdcts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NewPrdcts.Size = new System.Drawing.Size(795, 574);
             this.NewPrdcts.TabIndex = 0;
             this.NewPrdcts.Text = "New Product";
             // 
             // BttnCancel
             // 
             this.BttnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnCancel.Location = new System.Drawing.Point(757, 151);
-            this.BttnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnCancel.Location = new System.Drawing.Point(568, 123);
+            this.BttnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnCancel.Name = "BttnCancel";
-            this.BttnCancel.Size = new System.Drawing.Size(173, 41);
+            this.BttnCancel.Size = new System.Drawing.Size(130, 33);
             this.BttnCancel.TabIndex = 42;
             this.BttnCancel.Text = "Cancel";
             this.BttnCancel.UseVisualStyleBackColor = true;
@@ -126,10 +128,10 @@
             // BttnUpdate
             // 
             this.BttnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnUpdate.Location = new System.Drawing.Point(858, 91);
-            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnUpdate.Location = new System.Drawing.Point(644, 74);
+            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnUpdate.Name = "BttnUpdate";
-            this.BttnUpdate.Size = new System.Drawing.Size(173, 41);
+            this.BttnUpdate.Size = new System.Drawing.Size(130, 33);
             this.BttnUpdate.TabIndex = 41;
             this.BttnUpdate.Text = "Update";
             this.BttnUpdate.UseVisualStyleBackColor = true;
@@ -137,10 +139,10 @@
             // BttnSave
             // 
             this.BttnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnSave.Location = new System.Drawing.Point(655, 91);
-            this.BttnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnSave.Location = new System.Drawing.Point(491, 74);
+            this.BttnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnSave.Name = "BttnSave";
-            this.BttnSave.Size = new System.Drawing.Size(173, 41);
+            this.BttnSave.Size = new System.Drawing.Size(130, 33);
             this.BttnSave.TabIndex = 40;
             this.BttnSave.Text = "Save";
             this.BttnSave.UseVisualStyleBackColor = true;
@@ -148,10 +150,10 @@
             // BttnDelete
             // 
             this.BttnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnDelete.Location = new System.Drawing.Point(858, 36);
-            this.BttnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnDelete.Location = new System.Drawing.Point(644, 29);
+            this.BttnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnDelete.Name = "BttnDelete";
-            this.BttnDelete.Size = new System.Drawing.Size(173, 41);
+            this.BttnDelete.Size = new System.Drawing.Size(130, 33);
             this.BttnDelete.TabIndex = 39;
             this.BttnDelete.Text = "Delete";
             this.BttnDelete.UseVisualStyleBackColor = true;
@@ -159,10 +161,10 @@
             // BttnNew
             // 
             this.BttnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnNew.Location = new System.Drawing.Point(655, 36);
-            this.BttnNew.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnNew.Location = new System.Drawing.Point(491, 29);
+            this.BttnNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnNew.Name = "BttnNew";
-            this.BttnNew.Size = new System.Drawing.Size(173, 41);
+            this.BttnNew.Size = new System.Drawing.Size(130, 33);
             this.BttnNew.TabIndex = 38;
             this.BttnNew.Text = "New";
             this.BttnNew.UseVisualStyleBackColor = true;
@@ -170,10 +172,10 @@
             // BttnLast
             // 
             this.BttnLast.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnLast.Location = new System.Drawing.Point(900, 629);
-            this.BttnLast.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnLast.Location = new System.Drawing.Point(675, 511);
+            this.BttnLast.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnLast.Name = "BttnLast";
-            this.BttnLast.Size = new System.Drawing.Size(131, 41);
+            this.BttnLast.Size = new System.Drawing.Size(98, 33);
             this.BttnLast.TabIndex = 37;
             this.BttnLast.Text = "Last";
             this.BttnLast.UseVisualStyleBackColor = true;
@@ -181,10 +183,10 @@
             // BttnNext
             // 
             this.BttnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnNext.Location = new System.Drawing.Point(521, 629);
-            this.BttnNext.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnNext.Location = new System.Drawing.Point(391, 511);
+            this.BttnNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnNext.Name = "BttnNext";
-            this.BttnNext.Size = new System.Drawing.Size(131, 41);
+            this.BttnNext.Size = new System.Drawing.Size(98, 33);
             this.BttnNext.TabIndex = 35;
             this.BttnNext.Text = "Next";
             this.BttnNext.UseVisualStyleBackColor = true;
@@ -192,10 +194,10 @@
             // BttnPrevious
             // 
             this.BttnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnPrevious.Location = new System.Drawing.Point(712, 629);
-            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnPrevious.Location = new System.Drawing.Point(534, 511);
+            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnPrevious.Name = "BttnPrevious";
-            this.BttnPrevious.Size = new System.Drawing.Size(131, 41);
+            this.BttnPrevious.Size = new System.Drawing.Size(98, 33);
             this.BttnPrevious.TabIndex = 36;
             this.BttnPrevious.Text = "Previous";
             this.BttnPrevious.UseVisualStyleBackColor = true;
@@ -203,10 +205,10 @@
             // BttnFirst
             // 
             this.BttnFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnFirst.Location = new System.Drawing.Point(328, 629);
-            this.BttnFirst.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnFirst.Location = new System.Drawing.Point(246, 511);
+            this.BttnFirst.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnFirst.Name = "BttnFirst";
-            this.BttnFirst.Size = new System.Drawing.Size(131, 41);
+            this.BttnFirst.Size = new System.Drawing.Size(98, 33);
             this.BttnFirst.TabIndex = 34;
             this.BttnFirst.Text = "First";
             this.BttnFirst.UseVisualStyleBackColor = true;
@@ -215,80 +217,80 @@
             // 
             this.TxtbxPrdctDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPrdctDesc.Location = new System.Drawing.Point(328, 561);
-            this.TxtbxPrdctDesc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxPrdctDesc.Location = new System.Drawing.Point(246, 456);
+            this.TxtbxPrdctDesc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxPrdctDesc.Name = "TxtbxPrdctDesc";
-            this.TxtbxPrdctDesc.Size = new System.Drawing.Size(703, 38);
+            this.TxtbxPrdctDesc.Size = new System.Drawing.Size(528, 32);
             this.TxtbxPrdctDesc.TabIndex = 33;
             // 
             // TxtbxMSRP
             // 
             this.TxtbxMSRP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxMSRP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxMSRP.Location = new System.Drawing.Point(328, 497);
-            this.TxtbxMSRP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxMSRP.Location = new System.Drawing.Point(246, 404);
+            this.TxtbxMSRP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxMSRP.Name = "TxtbxMSRP";
-            this.TxtbxMSRP.Size = new System.Drawing.Size(703, 38);
+            this.TxtbxMSRP.Size = new System.Drawing.Size(528, 32);
             this.TxtbxMSRP.TabIndex = 32;
             // 
             // TxtbxBuyPrc
             // 
             this.TxtbxBuyPrc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxBuyPrc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxBuyPrc.Location = new System.Drawing.Point(328, 433);
-            this.TxtbxBuyPrc.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxBuyPrc.Location = new System.Drawing.Point(246, 352);
+            this.TxtbxBuyPrc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxBuyPrc.Name = "TxtbxBuyPrc";
-            this.TxtbxBuyPrc.Size = new System.Drawing.Size(703, 38);
+            this.TxtbxBuyPrc.Size = new System.Drawing.Size(528, 32);
             this.TxtbxBuyPrc.TabIndex = 31;
             // 
             // TxtbxPrdctCd
             // 
             this.TxtbxPrdctCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctCd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPrdctCd.Location = new System.Drawing.Point(328, 25);
-            this.TxtbxPrdctCd.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxPrdctCd.Location = new System.Drawing.Point(246, 20);
+            this.TxtbxPrdctCd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxPrdctCd.Name = "TxtbxPrdctCd";
-            this.TxtbxPrdctCd.Size = new System.Drawing.Size(309, 38);
+            this.TxtbxPrdctCd.Size = new System.Drawing.Size(232, 32);
             this.TxtbxPrdctCd.TabIndex = 30;
             // 
             // TxtbxPrdctLn
             // 
             this.TxtbxPrdctLn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctLn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPrdctLn.Location = new System.Drawing.Point(328, 88);
-            this.TxtbxPrdctLn.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxPrdctLn.Location = new System.Drawing.Point(246, 72);
+            this.TxtbxPrdctLn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxPrdctLn.Name = "TxtbxPrdctLn";
-            this.TxtbxPrdctLn.Size = new System.Drawing.Size(309, 38);
+            this.TxtbxPrdctLn.Size = new System.Drawing.Size(232, 32);
             this.TxtbxPrdctLn.TabIndex = 29;
             // 
             // TxtbxPrdctScl
             // 
             this.TxtbxPrdctScl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctScl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPrdctScl.Location = new System.Drawing.Point(328, 152);
-            this.TxtbxPrdctScl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxPrdctScl.Location = new System.Drawing.Point(246, 124);
+            this.TxtbxPrdctScl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxPrdctScl.Name = "TxtbxPrdctScl";
-            this.TxtbxPrdctScl.Size = new System.Drawing.Size(309, 38);
+            this.TxtbxPrdctScl.Size = new System.Drawing.Size(232, 32);
             this.TxtbxPrdctScl.TabIndex = 28;
             // 
             // TxtbxPrdctNm
             // 
             this.TxtbxPrdctNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPrdctNm.Location = new System.Drawing.Point(328, 225);
-            this.TxtbxPrdctNm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxPrdctNm.Location = new System.Drawing.Point(246, 183);
+            this.TxtbxPrdctNm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxPrdctNm.Name = "TxtbxPrdctNm";
-            this.TxtbxPrdctNm.Size = new System.Drawing.Size(703, 38);
+            this.TxtbxPrdctNm.Size = new System.Drawing.Size(528, 32);
             this.TxtbxPrdctNm.TabIndex = 27;
             // 
             // TxtbxPrdctVndr
             // 
             this.TxtbxPrdctVndr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctVndr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPrdctVndr.Location = new System.Drawing.Point(328, 292);
-            this.TxtbxPrdctVndr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxPrdctVndr.Location = new System.Drawing.Point(246, 237);
+            this.TxtbxPrdctVndr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxPrdctVndr.Name = "TxtbxPrdctVndr";
-            this.TxtbxPrdctVndr.Size = new System.Drawing.Size(703, 38);
+            this.TxtbxPrdctVndr.Size = new System.Drawing.Size(528, 32);
             this.TxtbxPrdctVndr.TabIndex = 26;
             // 
             // LblPrdctNm
@@ -296,9 +298,10 @@
             this.LblPrdctNm.AutoSize = true;
             this.LblPrdctNm.BackColor = System.Drawing.Color.Transparent;
             this.LblPrdctNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPrdctNm.Location = new System.Drawing.Point(87, 227);
+            this.LblPrdctNm.Location = new System.Drawing.Point(65, 184);
+            this.LblPrdctNm.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblPrdctNm.Name = "LblPrdctNm";
-            this.LblPrdctNm.Size = new System.Drawing.Size(212, 36);
+            this.LblPrdctNm.Size = new System.Drawing.Size(173, 29);
             this.LblPrdctNm.TabIndex = 25;
             this.LblPrdctNm.Text = "Product Name:";
             // 
@@ -307,9 +310,10 @@
             this.LblPrdctLn.AutoSize = true;
             this.LblPrdctLn.BackColor = System.Drawing.Color.Transparent;
             this.LblPrdctLn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPrdctLn.Location = new System.Drawing.Point(107, 96);
+            this.LblPrdctLn.Location = new System.Drawing.Point(80, 78);
+            this.LblPrdctLn.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblPrdctLn.Name = "LblPrdctLn";
-            this.LblPrdctLn.Size = new System.Drawing.Size(192, 36);
+            this.LblPrdctLn.Size = new System.Drawing.Size(154, 29);
             this.LblPrdctLn.TabIndex = 24;
             this.LblPrdctLn.Text = "Product Line:";
             // 
@@ -318,9 +322,10 @@
             this.LblPrdctScl.AutoSize = true;
             this.LblPrdctScl.BackColor = System.Drawing.Color.Transparent;
             this.LblPrdctScl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPrdctScl.Location = new System.Drawing.Point(90, 156);
+            this.LblPrdctScl.Location = new System.Drawing.Point(68, 127);
+            this.LblPrdctScl.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblPrdctScl.Name = "LblPrdctScl";
-            this.LblPrdctScl.Size = new System.Drawing.Size(209, 36);
+            this.LblPrdctScl.Size = new System.Drawing.Size(169, 29);
             this.LblPrdctScl.TabIndex = 23;
             this.LblPrdctScl.Text = "Product Scale:";
             // 
@@ -329,9 +334,10 @@
             this.LblPrdctVndr.AutoSize = true;
             this.LblPrdctVndr.BackColor = System.Drawing.Color.Transparent;
             this.LblPrdctVndr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPrdctVndr.Location = new System.Drawing.Point(66, 294);
+            this.LblPrdctVndr.Location = new System.Drawing.Point(50, 239);
+            this.LblPrdctVndr.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblPrdctVndr.Name = "LblPrdctVndr";
-            this.LblPrdctVndr.Size = new System.Drawing.Size(233, 36);
+            this.LblPrdctVndr.Size = new System.Drawing.Size(186, 29);
             this.LblPrdctVndr.TabIndex = 22;
             this.LblPrdctVndr.Text = "Product Vendor:";
             // 
@@ -340,9 +346,10 @@
             this.LblPrdctDesc.AutoSize = true;
             this.LblPrdctDesc.BackColor = System.Drawing.Color.Transparent;
             this.LblPrdctDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPrdctDesc.Location = new System.Drawing.Point(23, 563);
+            this.LblPrdctDesc.Location = new System.Drawing.Point(17, 457);
+            this.LblPrdctDesc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblPrdctDesc.Name = "LblPrdctDesc";
-            this.LblPrdctDesc.Size = new System.Drawing.Size(285, 36);
+            this.LblPrdctDesc.Size = new System.Drawing.Size(230, 29);
             this.LblPrdctDesc.TabIndex = 21;
             this.LblPrdctDesc.Text = "Product Description:";
             // 
@@ -351,9 +358,10 @@
             this.LblQntStck.AutoSize = true;
             this.LblQntStck.BackColor = System.Drawing.Color.Transparent;
             this.LblQntStck.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblQntStck.Location = new System.Drawing.Point(51, 363);
+            this.LblQntStck.Location = new System.Drawing.Point(38, 295);
+            this.LblQntStck.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblQntStck.Name = "LblQntStck";
-            this.LblQntStck.Size = new System.Drawing.Size(248, 36);
+            this.LblQntStck.Size = new System.Drawing.Size(197, 29);
             this.LblQntStck.TabIndex = 20;
             this.LblQntStck.Text = "Quantity in Stock:";
             // 
@@ -362,9 +370,10 @@
             this.LblBuyPrc.AutoSize = true;
             this.LblBuyPrc.BackColor = System.Drawing.Color.Transparent;
             this.LblBuyPrc.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblBuyPrc.Location = new System.Drawing.Point(148, 435);
+            this.LblBuyPrc.Location = new System.Drawing.Point(111, 353);
+            this.LblBuyPrc.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblBuyPrc.Name = "LblBuyPrc";
-            this.LblBuyPrc.Size = new System.Drawing.Size(151, 36);
+            this.LblBuyPrc.Size = new System.Drawing.Size(121, 29);
             this.LblBuyPrc.TabIndex = 19;
             this.LblBuyPrc.Text = "Buy Price:";
             // 
@@ -373,9 +382,10 @@
             this.LblMSRP.AutoSize = true;
             this.LblMSRP.BackColor = System.Drawing.Color.Transparent;
             this.LblMSRP.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblMSRP.Location = new System.Drawing.Point(189, 499);
+            this.LblMSRP.Location = new System.Drawing.Point(142, 405);
+            this.LblMSRP.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblMSRP.Name = "LblMSRP";
-            this.LblMSRP.Size = new System.Drawing.Size(110, 36);
+            this.LblMSRP.Size = new System.Drawing.Size(88, 29);
             this.LblMSRP.TabIndex = 18;
             this.LblMSRP.Text = "MSRP:";
             // 
@@ -383,10 +393,10 @@
             // 
             this.TxtbxQntStck.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxQntStck.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxQntStck.Location = new System.Drawing.Point(328, 363);
-            this.TxtbxQntStck.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxQntStck.Location = new System.Drawing.Point(246, 295);
+            this.TxtbxQntStck.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxQntStck.Name = "TxtbxQntStck";
-            this.TxtbxQntStck.Size = new System.Drawing.Size(703, 38);
+            this.TxtbxQntStck.Size = new System.Drawing.Size(528, 32);
             this.TxtbxQntStck.TabIndex = 17;
             // 
             // LblPrdctCd
@@ -394,9 +404,10 @@
             this.LblPrdctCd.AutoSize = true;
             this.LblPrdctCd.BackColor = System.Drawing.Color.Transparent;
             this.LblPrdctCd.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblPrdctCd.Location = new System.Drawing.Point(93, 25);
+            this.LblPrdctCd.Location = new System.Drawing.Point(70, 20);
+            this.LblPrdctCd.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblPrdctCd.Name = "LblPrdctCd";
-            this.LblPrdctCd.Size = new System.Drawing.Size(206, 36);
+            this.LblPrdctCd.Size = new System.Drawing.Size(167, 29);
             this.LblPrdctCd.TabIndex = 1;
             this.LblPrdctCd.Text = "Product Code:";
             // 
@@ -404,10 +415,11 @@
             // 
             this.ViewPrdcts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ViewPrdcts.Controls.Add(this.DtgrdPrdcts);
-            this.ViewPrdcts.Location = new System.Drawing.Point(4, 25);
+            this.ViewPrdcts.Location = new System.Drawing.Point(4, 22);
+            this.ViewPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ViewPrdcts.Name = "ViewPrdcts";
-            this.ViewPrdcts.Padding = new System.Windows.Forms.Padding(3);
-            this.ViewPrdcts.Size = new System.Drawing.Size(1063, 709);
+            this.ViewPrdcts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ViewPrdcts.Size = new System.Drawing.Size(795, 574);
             this.ViewPrdcts.TabIndex = 1;
             this.ViewPrdcts.Text = "View Products";
             // 
@@ -416,20 +428,22 @@
             this.DtgrdPrdcts.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.DtgrdPrdcts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgrdPrdcts.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DtgrdPrdcts.Location = new System.Drawing.Point(3, 3);
+            this.DtgrdPrdcts.Location = new System.Drawing.Point(2, 2);
+            this.DtgrdPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DtgrdPrdcts.Name = "DtgrdPrdcts";
             this.DtgrdPrdcts.RowHeadersWidth = 51;
             this.DtgrdPrdcts.RowTemplate.Height = 24;
-            this.DtgrdPrdcts.Size = new System.Drawing.Size(1057, 703);
+            this.DtgrdPrdcts.Size = new System.Drawing.Size(791, 570);
             this.DtgrdPrdcts.TabIndex = 0;
             // 
             // FrmProducts
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1065, 731);
+            this.ClientSize = new System.Drawing.Size(799, 594);
             this.Controls.Add(this.TbcntrlPrdcts);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmProducts";
             this.Text = "Products";
             this.TbcntrlPrdcts.ResumeLayout(false);

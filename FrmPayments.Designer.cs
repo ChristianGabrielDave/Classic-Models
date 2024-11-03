@@ -35,17 +35,17 @@
             this.BttnSave = new System.Windows.Forms.Button();
             this.BttnDelete = new System.Windows.Forms.Button();
             this.BttnNew = new System.Windows.Forms.Button();
-            this.TxtbxCntctFN = new System.Windows.Forms.TextBox();
-            this.TxtbxCntctLN = new System.Windows.Forms.TextBox();
-            this.TxtbxCstmrNm = new System.Windows.Forms.TextBox();
+            this.TxtbxAmnt = new System.Windows.Forms.TextBox();
+            this.TxtbxPymntDt = new System.Windows.Forms.TextBox();
+            this.TxtbxChckNmbr = new System.Windows.Forms.TextBox();
             this.TxtbxCstmrNmbr = new System.Windows.Forms.TextBox();
             this.BttnLast = new System.Windows.Forms.Button();
             this.BttnNext = new System.Windows.Forms.Button();
             this.BttnPrevious = new System.Windows.Forms.Button();
             this.BttnFirst = new System.Windows.Forms.Button();
-            this.LblCntctFN = new System.Windows.Forms.Label();
-            this.LblCntctLN = new System.Windows.Forms.Label();
-            this.LblCstmrNm = new System.Windows.Forms.Label();
+            this.LblAmnt = new System.Windows.Forms.Label();
+            this.LblPymntDt = new System.Windows.Forms.Label();
+            this.LblChckNmbr = new System.Windows.Forms.Label();
             this.LblCstmrNmbr = new System.Windows.Forms.Label();
             this.ViewPymnts = new System.Windows.Forms.TabPage();
             this.DtgrdPymnts = new System.Windows.Forms.DataGridView();
@@ -61,10 +61,10 @@
             this.TbcntrlPymnts.Controls.Add(this.ViewPymnts);
             this.TbcntrlPymnts.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TbcntrlPymnts.Location = new System.Drawing.Point(0, 0);
-            this.TbcntrlPymnts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TbcntrlPymnts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TbcntrlPymnts.Name = "TbcntrlPymnts";
             this.TbcntrlPymnts.SelectedIndex = 0;
-            this.TbcntrlPymnts.Size = new System.Drawing.Size(1065, 731);
+            this.TbcntrlPymnts.Size = new System.Drawing.Size(807, 274);
             this.TbcntrlPymnts.TabIndex = 1;
             // 
             // NewPymnts
@@ -75,33 +75,33 @@
             this.NewPymnts.Controls.Add(this.BttnSave);
             this.NewPymnts.Controls.Add(this.BttnDelete);
             this.NewPymnts.Controls.Add(this.BttnNew);
-            this.NewPymnts.Controls.Add(this.TxtbxCntctFN);
-            this.NewPymnts.Controls.Add(this.TxtbxCntctLN);
-            this.NewPymnts.Controls.Add(this.TxtbxCstmrNm);
+            this.NewPymnts.Controls.Add(this.TxtbxAmnt);
+            this.NewPymnts.Controls.Add(this.TxtbxPymntDt);
+            this.NewPymnts.Controls.Add(this.TxtbxChckNmbr);
             this.NewPymnts.Controls.Add(this.TxtbxCstmrNmbr);
             this.NewPymnts.Controls.Add(this.BttnLast);
             this.NewPymnts.Controls.Add(this.BttnNext);
             this.NewPymnts.Controls.Add(this.BttnPrevious);
             this.NewPymnts.Controls.Add(this.BttnFirst);
-            this.NewPymnts.Controls.Add(this.LblCntctFN);
-            this.NewPymnts.Controls.Add(this.LblCntctLN);
-            this.NewPymnts.Controls.Add(this.LblCstmrNm);
+            this.NewPymnts.Controls.Add(this.LblAmnt);
+            this.NewPymnts.Controls.Add(this.LblPymntDt);
+            this.NewPymnts.Controls.Add(this.LblChckNmbr);
             this.NewPymnts.Controls.Add(this.LblCstmrNmbr);
-            this.NewPymnts.Location = new System.Drawing.Point(4, 25);
-            this.NewPymnts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.NewPymnts.Location = new System.Drawing.Point(4, 22);
+            this.NewPymnts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NewPymnts.Name = "NewPymnts";
-            this.NewPymnts.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.NewPymnts.Size = new System.Drawing.Size(1057, 702);
+            this.NewPymnts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NewPymnts.Size = new System.Drawing.Size(799, 248);
             this.NewPymnts.TabIndex = 0;
             this.NewPymnts.Text = "New Payment";
             // 
             // BttnCancel
             // 
             this.BttnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnCancel.Location = new System.Drawing.Point(551, 478);
-            this.BttnCancel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnCancel.Location = new System.Drawing.Point(692, 61);
+            this.BttnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnCancel.Name = "BttnCancel";
-            this.BttnCancel.Size = new System.Drawing.Size(173, 41);
+            this.BttnCancel.Size = new System.Drawing.Size(92, 33);
             this.BttnCancel.TabIndex = 37;
             this.BttnCancel.Text = "Cancel";
             this.BttnCancel.UseVisualStyleBackColor = true;
@@ -109,10 +109,10 @@
             // BttnUpdate
             // 
             this.BttnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnUpdate.Location = new System.Drawing.Point(680, 417);
-            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnUpdate.Location = new System.Drawing.Point(627, 98);
+            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnUpdate.Name = "BttnUpdate";
-            this.BttnUpdate.Size = new System.Drawing.Size(173, 41);
+            this.BttnUpdate.Size = new System.Drawing.Size(92, 33);
             this.BttnUpdate.TabIndex = 36;
             this.BttnUpdate.Text = "Update";
             this.BttnUpdate.UseVisualStyleBackColor = true;
@@ -120,10 +120,10 @@
             // BttnSave
             // 
             this.BttnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnSave.Location = new System.Drawing.Point(426, 417);
-            this.BttnSave.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnSave.Location = new System.Drawing.Point(567, 61);
+            this.BttnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnSave.Name = "BttnSave";
-            this.BttnSave.Size = new System.Drawing.Size(173, 41);
+            this.BttnSave.Size = new System.Drawing.Size(92, 33);
             this.BttnSave.TabIndex = 35;
             this.BttnSave.Text = "Save";
             this.BttnSave.UseVisualStyleBackColor = true;
@@ -131,10 +131,10 @@
             // BttnDelete
             // 
             this.BttnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnDelete.Location = new System.Drawing.Point(680, 362);
-            this.BttnDelete.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnDelete.Location = new System.Drawing.Point(692, 12);
+            this.BttnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnDelete.Name = "BttnDelete";
-            this.BttnDelete.Size = new System.Drawing.Size(173, 41);
+            this.BttnDelete.Size = new System.Drawing.Size(92, 33);
             this.BttnDelete.TabIndex = 34;
             this.BttnDelete.Text = "Delete";
             this.BttnDelete.UseVisualStyleBackColor = true;
@@ -142,61 +142,61 @@
             // BttnNew
             // 
             this.BttnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnNew.Location = new System.Drawing.Point(426, 362);
-            this.BttnNew.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnNew.Location = new System.Drawing.Point(567, 12);
+            this.BttnNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnNew.Name = "BttnNew";
-            this.BttnNew.Size = new System.Drawing.Size(173, 41);
+            this.BttnNew.Size = new System.Drawing.Size(92, 33);
             this.BttnNew.TabIndex = 33;
             this.BttnNew.Text = "New";
             this.BttnNew.UseVisualStyleBackColor = true;
             // 
-            // TxtbxCntctFN
+            // TxtbxAmnt
             // 
-            this.TxtbxCntctFN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxCntctFN.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCntctFN.Location = new System.Drawing.Point(313, 174);
-            this.TxtbxCntctFN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxCntctFN.Name = "TxtbxCntctFN";
-            this.TxtbxCntctFN.Size = new System.Drawing.Size(806, 38);
-            this.TxtbxCntctFN.TabIndex = 20;
+            this.TxtbxAmnt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxAmnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxAmnt.Location = new System.Drawing.Point(264, 140);
+            this.TxtbxAmnt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxAmnt.Name = "TxtbxAmnt";
+            this.TxtbxAmnt.Size = new System.Drawing.Size(520, 32);
+            this.TxtbxAmnt.TabIndex = 20;
             // 
-            // TxtbxCntctLN
+            // TxtbxPymntDt
             // 
-            this.TxtbxCntctLN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxCntctLN.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCntctLN.Location = new System.Drawing.Point(313, 118);
-            this.TxtbxCntctLN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxCntctLN.Name = "TxtbxCntctLN";
-            this.TxtbxCntctLN.Size = new System.Drawing.Size(806, 38);
-            this.TxtbxCntctLN.TabIndex = 19;
+            this.TxtbxPymntDt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxPymntDt.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxPymntDt.Location = new System.Drawing.Point(264, 95);
+            this.TxtbxPymntDt.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPymntDt.Name = "TxtbxPymntDt";
+            this.TxtbxPymntDt.Size = new System.Drawing.Size(299, 32);
+            this.TxtbxPymntDt.TabIndex = 19;
             // 
-            // TxtbxCstmrNm
+            // TxtbxChckNmbr
             // 
-            this.TxtbxCstmrNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TxtbxCstmrNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCstmrNm.Location = new System.Drawing.Point(313, 61);
-            this.TxtbxCstmrNm.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.TxtbxCstmrNm.Name = "TxtbxCstmrNm";
-            this.TxtbxCstmrNm.Size = new System.Drawing.Size(806, 38);
-            this.TxtbxCstmrNm.TabIndex = 18;
+            this.TxtbxChckNmbr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TxtbxChckNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TxtbxChckNmbr.Location = new System.Drawing.Point(264, 51);
+            this.TxtbxChckNmbr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxChckNmbr.Name = "TxtbxChckNmbr";
+            this.TxtbxChckNmbr.Size = new System.Drawing.Size(299, 32);
+            this.TxtbxChckNmbr.TabIndex = 18;
             // 
             // TxtbxCstmrNmbr
             // 
             this.TxtbxCstmrNmbr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxCstmrNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxCstmrNmbr.Location = new System.Drawing.Point(313, 13);
-            this.TxtbxCstmrNmbr.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.TxtbxCstmrNmbr.Location = new System.Drawing.Point(264, 11);
+            this.TxtbxCstmrNmbr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TxtbxCstmrNmbr.Name = "TxtbxCstmrNmbr";
-            this.TxtbxCstmrNmbr.Size = new System.Drawing.Size(327, 38);
+            this.TxtbxCstmrNmbr.Size = new System.Drawing.Size(299, 32);
             this.TxtbxCstmrNmbr.TabIndex = 16;
             // 
             // BttnLast
             // 
             this.BttnLast.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnLast.Location = new System.Drawing.Point(680, 606);
-            this.BttnLast.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnLast.Location = new System.Drawing.Point(685, 190);
+            this.BttnLast.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnLast.Name = "BttnLast";
-            this.BttnLast.Size = new System.Drawing.Size(173, 41);
+            this.BttnLast.Size = new System.Drawing.Size(99, 33);
             this.BttnLast.TabIndex = 15;
             this.BttnLast.Text = "Last";
             this.BttnLast.UseVisualStyleBackColor = true;
@@ -204,10 +204,10 @@
             // BttnNext
             // 
             this.BttnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnNext.Location = new System.Drawing.Point(257, 606);
-            this.BttnNext.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnNext.Location = new System.Drawing.Point(404, 190);
+            this.BttnNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnNext.Name = "BttnNext";
-            this.BttnNext.Size = new System.Drawing.Size(173, 41);
+            this.BttnNext.Size = new System.Drawing.Size(99, 33);
             this.BttnNext.TabIndex = 14;
             this.BttnNext.Text = "Next";
             this.BttnNext.UseVisualStyleBackColor = true;
@@ -215,10 +215,10 @@
             // BttnPrevious
             // 
             this.BttnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnPrevious.Location = new System.Drawing.Point(467, 606);
-            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnPrevious.Location = new System.Drawing.Point(542, 190);
+            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnPrevious.Name = "BttnPrevious";
-            this.BttnPrevious.Size = new System.Drawing.Size(173, 41);
+            this.BttnPrevious.Size = new System.Drawing.Size(99, 33);
             this.BttnPrevious.TabIndex = 14;
             this.BttnPrevious.Text = "Previous";
             this.BttnPrevious.UseVisualStyleBackColor = true;
@@ -226,55 +226,59 @@
             // BttnFirst
             // 
             this.BttnFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BttnFirst.Location = new System.Drawing.Point(47, 606);
-            this.BttnFirst.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.BttnFirst.Location = new System.Drawing.Point(264, 190);
+            this.BttnFirst.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.BttnFirst.Name = "BttnFirst";
-            this.BttnFirst.Size = new System.Drawing.Size(173, 41);
+            this.BttnFirst.Size = new System.Drawing.Size(99, 33);
             this.BttnFirst.TabIndex = 13;
             this.BttnFirst.Text = "First";
             this.BttnFirst.UseVisualStyleBackColor = true;
             // 
-            // LblCntctFN
+            // LblAmnt
             // 
-            this.LblCntctFN.AutoSize = true;
-            this.LblCntctFN.BackColor = System.Drawing.Color.Transparent;
-            this.LblCntctFN.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCntctFN.Location = new System.Drawing.Point(18, 176);
-            this.LblCntctFN.Name = "LblCntctFN";
-            this.LblCntctFN.Size = new System.Drawing.Size(126, 36);
-            this.LblCntctFN.TabIndex = 7;
-            this.LblCntctFN.Text = "Amount:";
+            this.LblAmnt.AutoSize = true;
+            this.LblAmnt.BackColor = System.Drawing.Color.Transparent;
+            this.LblAmnt.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblAmnt.Location = new System.Drawing.Point(146, 143);
+            this.LblAmnt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblAmnt.Name = "LblAmnt";
+            this.LblAmnt.Size = new System.Drawing.Size(100, 29);
+            this.LblAmnt.TabIndex = 7;
+            this.LblAmnt.Text = "Amount:";
             // 
-            // LblCntctLN
+            // LblPymntDt
             // 
-            this.LblCntctLN.AutoSize = true;
-            this.LblCntctLN.BackColor = System.Drawing.Color.Transparent;
-            this.LblCntctLN.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCntctLN.Location = new System.Drawing.Point(20, 120);
-            this.LblCntctLN.Name = "LblCntctLN";
-            this.LblCntctLN.Size = new System.Drawing.Size(207, 36);
-            this.LblCntctLN.TabIndex = 6;
-            this.LblCntctLN.Text = "Payment Date:";
+            this.LblPymntDt.AutoSize = true;
+            this.LblPymntDt.BackColor = System.Drawing.Color.Transparent;
+            this.LblPymntDt.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblPymntDt.Location = new System.Drawing.Point(78, 98);
+            this.LblPymntDt.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblPymntDt.Name = "LblPymntDt";
+            this.LblPymntDt.Size = new System.Drawing.Size(168, 29);
+            this.LblPymntDt.TabIndex = 6;
+            this.LblPymntDt.Text = "Payment Date:";
             // 
-            // LblCstmrNm
+            // LblChckNmbr
             // 
-            this.LblCstmrNm.AutoSize = true;
-            this.LblCstmrNm.BackColor = System.Drawing.Color.Transparent;
-            this.LblCstmrNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCstmrNm.Location = new System.Drawing.Point(59, 63);
-            this.LblCstmrNm.Name = "LblCstmrNm";
-            this.LblCstmrNm.Size = new System.Drawing.Size(220, 36);
-            this.LblCstmrNm.TabIndex = 5;
-            this.LblCstmrNm.Text = "Check Number:";
+            this.LblChckNmbr.AutoSize = true;
+            this.LblChckNmbr.BackColor = System.Drawing.Color.Transparent;
+            this.LblChckNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblChckNmbr.Location = new System.Drawing.Point(66, 54);
+            this.LblChckNmbr.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.LblChckNmbr.Name = "LblChckNmbr";
+            this.LblChckNmbr.Size = new System.Drawing.Size(180, 29);
+            this.LblChckNmbr.TabIndex = 5;
+            this.LblChckNmbr.Text = "Check Number:";
             // 
             // LblCstmrNmbr
             // 
             this.LblCstmrNmbr.AutoSize = true;
             this.LblCstmrNmbr.BackColor = System.Drawing.Color.Transparent;
             this.LblCstmrNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCstmrNmbr.Location = new System.Drawing.Point(29, 15);
+            this.LblCstmrNmbr.Location = new System.Drawing.Point(30, 16);
+            this.LblCstmrNmbr.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LblCstmrNmbr.Name = "LblCstmrNmbr";
-            this.LblCstmrNmbr.Size = new System.Drawing.Size(263, 36);
+            this.LblCstmrNmbr.Size = new System.Drawing.Size(216, 29);
             this.LblCstmrNmbr.TabIndex = 0;
             this.LblCstmrNmbr.Text = "Customer Number:";
             // 
@@ -282,11 +286,11 @@
             // 
             this.ViewPymnts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ViewPymnts.Controls.Add(this.DtgrdPymnts);
-            this.ViewPymnts.Location = new System.Drawing.Point(4, 25);
-            this.ViewPymnts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.ViewPymnts.Location = new System.Drawing.Point(4, 22);
+            this.ViewPymnts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ViewPymnts.Name = "ViewPymnts";
-            this.ViewPymnts.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.ViewPymnts.Size = new System.Drawing.Size(1057, 702);
+            this.ViewPymnts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ViewPymnts.Size = new System.Drawing.Size(791, 568);
             this.ViewPymnts.TabIndex = 1;
             this.ViewPymnts.Text = "View Payments";
             // 
@@ -295,21 +299,22 @@
             this.DtgrdPymnts.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.DtgrdPymnts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgrdPymnts.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.DtgrdPymnts.Location = new System.Drawing.Point(3, 2);
-            this.DtgrdPymnts.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.DtgrdPymnts.Location = new System.Drawing.Point(2, 2);
+            this.DtgrdPymnts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.DtgrdPymnts.Name = "DtgrdPymnts";
             this.DtgrdPymnts.RowHeadersWidth = 51;
             this.DtgrdPymnts.RowTemplate.Height = 24;
-            this.DtgrdPymnts.Size = new System.Drawing.Size(1051, 698);
+            this.DtgrdPymnts.Size = new System.Drawing.Size(787, 564);
             this.DtgrdPymnts.TabIndex = 0;
             // 
             // FrmPayments
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(1065, 731);
+            this.ClientSize = new System.Drawing.Size(807, 274);
             this.Controls.Add(this.TbcntrlPymnts);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FrmPayments";
             this.Text = "Payments";
             this.TbcntrlPymnts.ResumeLayout(false);
@@ -330,17 +335,17 @@
         private System.Windows.Forms.Button BttnSave;
         private System.Windows.Forms.Button BttnDelete;
         private System.Windows.Forms.Button BttnNew;
-        private System.Windows.Forms.TextBox TxtbxCntctFN;
-        private System.Windows.Forms.TextBox TxtbxCntctLN;
-        private System.Windows.Forms.TextBox TxtbxCstmrNm;
+        private System.Windows.Forms.TextBox TxtbxAmnt;
+        private System.Windows.Forms.TextBox TxtbxPymntDt;
+        private System.Windows.Forms.TextBox TxtbxChckNmbr;
         private System.Windows.Forms.TextBox TxtbxCstmrNmbr;
         private System.Windows.Forms.Button BttnLast;
         private System.Windows.Forms.Button BttnNext;
         private System.Windows.Forms.Button BttnPrevious;
         private System.Windows.Forms.Button BttnFirst;
-        private System.Windows.Forms.Label LblCntctFN;
-        private System.Windows.Forms.Label LblCntctLN;
-        private System.Windows.Forms.Label LblCstmrNm;
+        private System.Windows.Forms.Label LblAmnt;
+        private System.Windows.Forms.Label LblPymntDt;
+        private System.Windows.Forms.Label LblChckNmbr;
         private System.Windows.Forms.Label LblCstmrNmbr;
         private System.Windows.Forms.TabPage ViewPymnts;
         private System.Windows.Forms.DataGridView DtgrdPymnts;

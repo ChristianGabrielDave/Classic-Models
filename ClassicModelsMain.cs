@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace ClassicModels
 {
-    class ClassicModels
+    class ClassicModelsMain
     {
 
         private MySqlConnection myConn = null;
@@ -107,7 +107,7 @@ namespace ClassicModels
             return false;
         }
 
-        public void SelectCustomers(DataGridView dgCustomers)
+        public void SelectCustomers(DataGridView DtgrdCstmrs)
         {
             try
             {
@@ -131,10 +131,10 @@ namespace ClassicModels
 
 
 
-                        dgCustomers.DataSource = dt;
-                        dgCustomers.Columns[0].Width = 200;
-                        dgCustomers.Columns[1].Width = 450;
-                        dgCustomers.Columns[2].Width = 200;
+                        DtgrdCstmrs.DataSource = dt;
+                        DtgrdCstmrs.Columns[0].Width = 200;
+                        DtgrdCstmrs.Columns[1].Width = 450;
+                        DtgrdCstmrs.Columns[2].Width = 200;
                     }
                 }
             }
@@ -181,7 +181,7 @@ namespace ClassicModels
             }
         }
 
-        public void BindCustomerState(ComboBox cb, ComboBox cmbcountry)
+        public void BindCustomerState(ComboBox cb, ComboBox CmbbxCntry)
         {
             try
             {
@@ -192,7 +192,7 @@ namespace ClassicModels
                     myConn.Open();
                     if (myConn.State == ConnectionState.Open)
                     {
-                        string query = "SELECT Distinct state AS State FROM customers WHERE country = '" + cmbcountry.Text + "' ORDER BY State ASC";
+                        string query = "SELECT Distinct state AS State FROM customers WHERE country = '" + CmbbxCntry.Text + "' ORDER BY State ASC";
 
                         MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
 
@@ -213,7 +213,7 @@ namespace ClassicModels
             }
         }
 
-        public void BindCustomerCity(ComboBox cb, ComboBox cmbcountry)
+        public void BindCustomerCity(ComboBox cb, ComboBox CmbbxCntry)
         {
             try
             {
@@ -224,7 +224,7 @@ namespace ClassicModels
                     myConn.Open();
                     if (myConn.State == ConnectionState.Open)
                     {
-                        string query = "SELECT Distinct city AS City FROM customers WHERE country = '" + cmbcountry.Text + "' ORDER BY City ASC";
+                        string query = "SELECT Distinct city AS City FROM customers WHERE country = '" + CmbbxCntry.Text + "' ORDER BY City ASC";
 
                         MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
 
@@ -246,7 +246,7 @@ namespace ClassicModels
         }
 
 
-        public void BindPostalCode(ComboBox cb, ComboBox cmbcountry)
+        public void BindPostalCode(ComboBox cb, ComboBox CmbbxCntry)
         {
             try
             {
@@ -259,7 +259,7 @@ namespace ClassicModels
                     {
 
                         {
-                            string query = "SELECT Distinct postalCode AS postalCode FROM customers WHERE country = '" + cmbcountry.Text + "' ORDER BY postalCode ASC";
+                            string query = "SELECT Distinct postalCode AS postalCode FROM customers WHERE country = '" + CmbbxCntry.Text + "' ORDER BY postalCode ASC";
 
 
                             MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);

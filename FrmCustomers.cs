@@ -12,24 +12,19 @@ namespace ClassicModels
 {
     public partial class FrmCustomers : Form
     {
-        ClassicModels cm = new ClassicModels();
-        bool newOrEdit;
+        ClassicModelsMain cm = new ClassicModelsMain();
         public FrmCustomers()
         {
             InitializeComponent();
         }
 
-        private void frmCustomers_Load(object sender, EventArgs e)
+        private void Customers_Load(object sender, EventArgs e)
         {
-            //cm.SelectCustomers(dgCustomers);
-            //FirstPrevNextLast(0);
-            //cm.BindCustomerCountry(cmbcountry);
-            //FirstPrevNextLast(0);
-            //cm.BindCustomerState(cmbstate, cmbcountry);
-            //cm.BindCustomerCity(cmbcity, cmbcountry);
-            //cm.BindPostalCode(cmbpostalcode, cmbcountry);
-            //cm.BindSalesRep(salesRep);
-            //FirstPrevNextLast(0);
+            cm.SelectCustomers(DtgrdCstmrs);
+            cm.BindCustomerCountry(CmbbxCntry);
+            cm.BindCustomerState(CmbbxState, CmbbxCntry);
+            cm.BindCustomerCity(CmbbxCity, CmbbxCntry);
+            cm.BindPostalCode(CmbbxPstlCd, CmbbxCntry);
         }
         private void DtgrdCstmrs_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -37,6 +32,11 @@ namespace ClassicModels
         }
 
         private void BttnNew_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void NewCstmrs_Click(object sender, EventArgs e)
         {
 
         }

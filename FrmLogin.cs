@@ -12,7 +12,7 @@ namespace ClassicModels
 {
     public partial class FrmLogin : Form
     {
-        ClassicModels cm = new ClassicModels();
+        ClassicModelsMain cm = new ClassicModelsMain();
         public FrmLogin()
         {
             InitializeComponent();

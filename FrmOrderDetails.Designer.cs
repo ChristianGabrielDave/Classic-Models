@@ -385,6 +385,7 @@
             this.DtgrdOrdrDtls.RowTemplate.Height = 24;
             this.DtgrdOrdrDtls.Size = new System.Drawing.Size(886, 297);
             this.DtgrdOrdrDtls.TabIndex = 0;
+            this.DtgrdOrdrDtls.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgrdOrdrDtls_CellContentClick);
             // 
             // FrmOrderDetails
             // 

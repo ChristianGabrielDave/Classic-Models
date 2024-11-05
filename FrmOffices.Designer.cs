@@ -200,7 +200,7 @@
             // 
             this.TxtbxPhnNmbr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPhnNmbr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbxPhnNmbr.Location = new System.Drawing.Point(184, 80);
+            this.TxtbxPhnNmbr.Location = new System.Drawing.Point(184, 82);
             this.TxtbxPhnNmbr.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxPhnNmbr.Name = "TxtbxPhnNmbr";
             this.TxtbxPhnNmbr.Size = new System.Drawing.Size(291, 32);
@@ -436,6 +436,7 @@
             this.DtgrdOffcs.RowTemplate.Height = 24;
             this.DtgrdOffcs.Size = new System.Drawing.Size(794, 490);
             this.DtgrdOffcs.TabIndex = 0;
+            this.DtgrdOffcs.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgrdOffcs_CellContentClick);
             // 
             // FrmOffices
             // 

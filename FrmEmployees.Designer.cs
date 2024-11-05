@@ -411,6 +411,7 @@
             this.DtgrdEmplys.RowTemplate.Height = 24;
             this.DtgrdEmplys.Size = new System.Drawing.Size(792, 491);
             this.DtgrdEmplys.TabIndex = 0;
+            this.DtgrdEmplys.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgrdEmplys_CellContentClick);
             // 
             // FrmEmployees
             // 

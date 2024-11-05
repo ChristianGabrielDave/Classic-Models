@@ -436,6 +436,7 @@
             this.DtgrdPrdcts.RowTemplate.Height = 24;
             this.DtgrdPrdcts.Size = new System.Drawing.Size(791, 570);
             this.DtgrdPrdcts.TabIndex = 0;
+            this.DtgrdPrdcts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgrdPrdcts_CellContentClick);
             // 
             // FrmProducts
             // 

@@ -282,39 +282,6 @@ namespace ClassicModels
             }
         }
 
-        public void BindSalesRep(ComboBox cb)
-        {
-            try
-            {
-                myConn = new MySqlConnection(connstring);
-
-                if (myConn.State != ConnectionState.Open)
-                {
-                    myConn.Open();
-                    if (myConn.State == ConnectionState.Open)
-                    {
-                        string query =
-                            "SELECT Distinct salesRepEmployeeNumber AS salesRep FROM customers ORDER BY salesRep ASC";
-
-                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
-
-                        DataSet ds = new DataSet();
-
-                        da.Fill(ds, "0");
-                        dt = ds.Tables["0"];
-
-                        cb.DataSource = dt;
-                        cb.DisplayMember = "salesRep";
-                        cb.ValueMember = "salesRep";
-                    }
-                }
-            }
-            catch (Exception e1)
-            {
-                MessageBox.Show("Error message is: " + e1.Message);
-            }
-        }
-
         public void SelectEmployees(DataGridView DtgrdEmplys)
         {
             try
@@ -338,6 +305,38 @@ namespace ClassicModels
 
 
                         DtgrdEmplys.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+        }
+
+        public void BindEmployeesOfficeCode(ComboBox cb)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT Distinct officeCode AS OfficeCode FROM employees ORDER BY OfficeCode ASC";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "0");
+                        dt = ds.Tables["0"];
+
+                        cb.DataSource = dt;
+                        cb.DisplayMember = "OfficeCode";
+                        cb.ValueMember = "OfficeCode";
                     }
                 }
             }
@@ -443,6 +442,166 @@ namespace ClassicModels
             return;
         }
 
+        public void BindOfficesTerritory(ComboBox cb)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT Distinct territory AS Territory FROM offices ORDER BY Territory ASC";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "0");
+                        dt = ds.Tables["0"];
+
+                        cb.DataSource = dt;
+                        cb.DisplayMember = "Territory";
+                        cb.ValueMember = "Territory";
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+        }
+
+        public void BindOfficesCountry(ComboBox cb)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT Distinct country AS Country FROM offices ORDER BY Country ASC";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "0");
+                        dt = ds.Tables["0"];
+
+                        cb.DataSource = dt;
+                        cb.DisplayMember = "Country";
+                        cb.ValueMember = "Country";
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+        }
+
+        public void BindOfficesCity(ComboBox cb)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT Distinct city AS City FROM offices ORDER BY City ASC";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "0");
+                        dt = ds.Tables["0"];
+
+                        cb.DataSource = dt;
+                        cb.DisplayMember = "City";
+                        cb.ValueMember = "City";
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+        }
+
+        public void BindOfficesState(ComboBox cb)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT Distinct state AS State FROM offices ORDER BY State ASC";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "0");
+                        dt = ds.Tables["0"];
+
+                        cb.DataSource = dt;
+                        cb.DisplayMember = "State";
+                        cb.ValueMember = "State";
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+        }
+
+        public void BindOfficesPostalCode(ComboBox cb)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT Distinct postalCode AS PostalCode FROM offices ORDER BY PostalCode ASC";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "0");
+                        dt = ds.Tables["0"];
+
+                        cb.DataSource = dt;
+                        cb.DisplayMember = "PostalCode";
+                        cb.ValueMember = "PostalCode";
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+        }
+
         public void SelectOrders(DataGridView DtgrdOrdrs)
         {
             try
@@ -473,6 +632,38 @@ namespace ClassicModels
             }
 
             return;
+        }
+
+        public void BindOrdersStatus(ComboBox cb)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT Distinct status AS Status FROM orders ORDER BY Status ASC";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "0");
+                        dt = ds.Tables["0"];
+
+                        cb.DataSource = dt;
+                        cb.DisplayMember = "Status";
+                        cb.ValueMember = "Status";
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
         }
 
         public void SelectOrderDetails(DataGridView DtgrdOrdrDtls)

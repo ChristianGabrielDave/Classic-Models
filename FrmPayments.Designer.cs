@@ -307,6 +307,7 @@
             this.DtgrdPymnts.RowTemplate.Height = 24;
             this.DtgrdPymnts.Size = new System.Drawing.Size(795, 244);
             this.DtgrdPymnts.TabIndex = 0;
+            this.DtgrdPymnts.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgrdPymnts_CellContentClick);
             // 
             // FrmPayments
             // 

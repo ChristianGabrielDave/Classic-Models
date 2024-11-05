@@ -18,7 +18,7 @@ namespace ClassicModels
             InitializeComponent();
         }
 
-        private void Customers_Load(object sender, EventArgs e)
+        private void FrmCustomers_Load(object sender, EventArgs e)
         {
             cm.SelectCustomers(DtgrdCstmrs);
             cm.BindCustomerCountry(CmbbxCntry);

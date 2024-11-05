@@ -20,7 +20,7 @@ namespace ClassicModels
         private DataTable dt = new DataTable();
         private MySqlDataReader MySqlDataReader = null;
 
-        private string connstring = @"server=localhost;userid=root;password=gabbydave3224;database=classicmodels";
+        private string connstring = @"server=localhost;userid=root;password=minecraft24;database=classicmodels";
 
 
         public bool Authentication1(string username, string password)
@@ -33,7 +33,8 @@ namespace ClassicModels
 
                     if (myConn.State == ConnectionState.Open)
                     {
-                        string query = "SELECT count(*) AS Record FROM users WHERE username=@username AND password=@password";
+                        string query =
+                            "SELECT count(*) AS Record FROM users WHERE username=@username AND password=@password";
 
                         using (MySqlCommand cmd = new MySqlCommand(query, myConn))
                         {
@@ -78,7 +79,7 @@ namespace ClassicModels
                     if (myConn.State == ConnectionState.Open)
                     {
                         string query = String.Format("SELECT count(*) AS Record FROM users " +
-                                             "WHERE username='{0}' AND password='{1}'", username, password);
+                                                     "WHERE username='{0}' AND password='{1}'", username, password);
 
                         MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
                         DataSet ds = new DataSet();
@@ -118,9 +119,7 @@ namespace ClassicModels
                     myConn.Open();
                     if (myConn.State == ConnectionState.Open)
                     {
-                        string query = "SELECT customerNumber AS 'Customer Number', customerName AS 'Customer Name', " +
-                            "country AS Country, state, contactLastName, contactFirstName, Phone, addressLine1, " +
-                            "addressLine2, postalCode, salesRepEmployeeNumber ,creditLimit, city FROM customers";
+                        string query = "SELECT * FROM customers";
 
                         MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
 
@@ -132,9 +131,6 @@ namespace ClassicModels
 
 
                         DtgrdCstmrs.DataSource = dt;
-                        DtgrdCstmrs.Columns[0].Width = 200;
-                        DtgrdCstmrs.Columns[1].Width = 450;
-                        DtgrdCstmrs.Columns[2].Width = 200;
                     }
                 }
             }
@@ -192,7 +188,8 @@ namespace ClassicModels
                     myConn.Open();
                     if (myConn.State == ConnectionState.Open)
                     {
-                        string query = "SELECT Distinct state AS State FROM customers WHERE country = '" + CmbbxCntry.Text + "' ORDER BY State ASC";
+                        string query = "SELECT Distinct state AS State FROM customers WHERE country = '" +
+                                       CmbbxCntry.Text + "' ORDER BY State ASC";
 
                         MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
 
@@ -224,7 +221,8 @@ namespace ClassicModels
                     myConn.Open();
                     if (myConn.State == ConnectionState.Open)
                     {
-                        string query = "SELECT Distinct city AS City FROM customers WHERE country = '" + CmbbxCntry.Text + "' ORDER BY City ASC";
+                        string query = "SELECT Distinct city AS City FROM customers WHERE country = '" +
+                                       CmbbxCntry.Text + "' ORDER BY City ASC";
 
                         MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
 
@@ -259,7 +257,8 @@ namespace ClassicModels
                     {
 
                         {
-                            string query = "SELECT Distinct postalCode AS postalCode FROM customers WHERE country = '" + CmbbxCntry.Text + "' ORDER BY postalCode ASC";
+                            string query = "SELECT Distinct postalCode AS postalCode FROM customers WHERE country = '" +
+                                           CmbbxCntry.Text + "' ORDER BY postalCode ASC";
 
 
                             MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
@@ -294,7 +293,8 @@ namespace ClassicModels
                     myConn.Open();
                     if (myConn.State == ConnectionState.Open)
                     {
-                        string query = "SELECT Distinct salesRepEmployeeNumber AS salesRep FROM customers ORDER BY salesRep ASC";
+                        string query =
+                            "SELECT Distinct salesRepEmployeeNumber AS salesRep FROM customers ORDER BY salesRep ASC";
 
                         MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
 
@@ -313,6 +313,230 @@ namespace ClassicModels
             {
                 MessageBox.Show("Error message is: " + e1.Message);
             }
+        }
+
+        public void SelectEmployees(DataGridView DtgrdEmplys)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT * FROM employees";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "employees");
+                        dt = ds.Tables["employees"];
+
+
+
+                        DtgrdEmplys.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+        }
+
+        public void SelectProductLines(DataGridView DtgrdPrdctLns)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT * FROM productlines";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "productlines");
+                        dt = ds.Tables["productlines"];
+
+                        DtgrdPrdctLns.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+
+            return;
+        }
+
+        public void SelectProducts(DataGridView DtgrdPrdcts)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT * FROM products";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "products");
+                        dt = ds.Tables["products"];
+
+                        DtgrdPrdcts.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+
+            return;
+        }
+
+        public void SelectOffices(DataGridView DtgrdOffcs)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT * FROM offices";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "offices");
+                        dt = ds.Tables["offices"];
+
+                        DtgrdOffcs.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+
+            return;
+        }
+
+        public void SelectOrders(DataGridView DtgrdOrdrs)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT * FROM orders";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "orders");
+                        dt = ds.Tables["orders"];
+
+                        DtgrdOrdrs.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+
+            return;
+        }
+
+        public void SelectOrderDetails(DataGridView DtgrdOrdrDtls)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT * FROM orderdetails";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "orderdetails");
+                        dt = ds.Tables["orderdetails"];
+
+                        DtgrdOrdrDtls.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+
+            return;
+        }
+
+        public void SelectPayments(DataGridView DtgrdPymnts)
+        {
+            try
+            {
+                myConn = new MySqlConnection(connstring);
+
+                if (myConn.State != ConnectionState.Open)
+                {
+                    myConn.Open();
+                    if (myConn.State == ConnectionState.Open)
+                    {
+                        string query = "SELECT * FROM payments";
+
+                        MySqlDataAdapter da = new MySqlDataAdapter(query, myConn);
+
+                        DataSet ds = new DataSet();
+
+                        da.Fill(ds, "payments");
+                        dt = ds.Tables["payments"];
+
+                        DtgrdPymnts.DataSource = dt;
+                    }
+                }
+            }
+            catch (Exception e1)
+            {
+                MessageBox.Show("Error message is: " + e1.Message);
+            }
+
+            return;
         }
     }
 }

@@ -12,9 +12,20 @@ namespace ClassicModels
 {
     public partial class FrmPayments : Form
     {
+        ClassicModelsMain cm = new ClassicModelsMain();
         public FrmPayments()
         {
             InitializeComponent();
+        }
+
+        private void FrmPayments_Load(object sender, EventArgs e)
+        {
+            cm.SelectPayments(DtgrdPymnts);
+        }
+
+        private void BttnNew_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

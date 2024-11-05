@@ -12,9 +12,25 @@ namespace ClassicModels
 {
     public partial class FrmEmployees : Form
     {
+        ClassicModelsMain cm = new ClassicModelsMain();
         public FrmEmployees()
         {
             InitializeComponent();
+        }
+
+        private void FrmEmployees_Load(object sender, EventArgs e)
+        {
+            cm.SelectEmployees(DtgrdEmplys);
+        }
+
+        private void BttnFirst_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BttnNew_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

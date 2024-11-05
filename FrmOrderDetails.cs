@@ -12,9 +12,19 @@ namespace ClassicModels
 {
     public partial class FrmOrderDetails : Form
     {
+        ClassicModelsMain cm = new ClassicModelsMain();
         public FrmOrderDetails()
         {
             InitializeComponent();
+        }
+        private void FrmOrders_Load(object sender, EventArgs e)
+        {
+            cm.SelectOrderDetails(DtgrdOrdrDtls);
+        }
+
+        private void BttnNew_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

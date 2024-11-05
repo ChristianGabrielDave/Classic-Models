@@ -70,7 +70,7 @@
             this.TbcntrlPrdcts.Controls.Add(this.NewPrdcts);
             this.TbcntrlPrdcts.Controls.Add(this.ViewPrdcts);
             this.TbcntrlPrdcts.Location = new System.Drawing.Point(-2, -2);
-            this.TbcntrlPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TbcntrlPrdcts.Margin = new System.Windows.Forms.Padding(2);
             this.TbcntrlPrdcts.Name = "TbcntrlPrdcts";
             this.TbcntrlPrdcts.SelectedIndex = 0;
             this.TbcntrlPrdcts.Size = new System.Drawing.Size(803, 600);
@@ -107,9 +107,9 @@
             this.NewPrdcts.Controls.Add(this.TxtbxQntStck);
             this.NewPrdcts.Controls.Add(this.LblPrdctCd);
             this.NewPrdcts.Location = new System.Drawing.Point(4, 22);
-            this.NewPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NewPrdcts.Margin = new System.Windows.Forms.Padding(2);
             this.NewPrdcts.Name = "NewPrdcts";
-            this.NewPrdcts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.NewPrdcts.Padding = new System.Windows.Forms.Padding(2);
             this.NewPrdcts.Size = new System.Drawing.Size(795, 574);
             this.NewPrdcts.TabIndex = 0;
             this.NewPrdcts.Text = "New Product";
@@ -118,7 +118,7 @@
             // 
             this.BttnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnCancel.Location = new System.Drawing.Point(568, 123);
-            this.BttnCancel.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnCancel.Margin = new System.Windows.Forms.Padding(2);
             this.BttnCancel.Name = "BttnCancel";
             this.BttnCancel.Size = new System.Drawing.Size(130, 33);
             this.BttnCancel.TabIndex = 42;
@@ -129,7 +129,7 @@
             // 
             this.BttnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnUpdate.Location = new System.Drawing.Point(644, 74);
-            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnUpdate.Margin = new System.Windows.Forms.Padding(2);
             this.BttnUpdate.Name = "BttnUpdate";
             this.BttnUpdate.Size = new System.Drawing.Size(130, 33);
             this.BttnUpdate.TabIndex = 41;
@@ -140,7 +140,7 @@
             // 
             this.BttnSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnSave.Location = new System.Drawing.Point(491, 74);
-            this.BttnSave.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnSave.Margin = new System.Windows.Forms.Padding(2);
             this.BttnSave.Name = "BttnSave";
             this.BttnSave.Size = new System.Drawing.Size(130, 33);
             this.BttnSave.TabIndex = 40;
@@ -151,7 +151,7 @@
             // 
             this.BttnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnDelete.Location = new System.Drawing.Point(644, 29);
-            this.BttnDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnDelete.Margin = new System.Windows.Forms.Padding(2);
             this.BttnDelete.Name = "BttnDelete";
             this.BttnDelete.Size = new System.Drawing.Size(130, 33);
             this.BttnDelete.TabIndex = 39;
@@ -162,7 +162,7 @@
             // 
             this.BttnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnNew.Location = new System.Drawing.Point(491, 29);
-            this.BttnNew.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnNew.Margin = new System.Windows.Forms.Padding(2);
             this.BttnNew.Name = "BttnNew";
             this.BttnNew.Size = new System.Drawing.Size(130, 33);
             this.BttnNew.TabIndex = 38;
@@ -173,7 +173,7 @@
             // 
             this.BttnLast.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnLast.Location = new System.Drawing.Point(675, 511);
-            this.BttnLast.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnLast.Margin = new System.Windows.Forms.Padding(2);
             this.BttnLast.Name = "BttnLast";
             this.BttnLast.Size = new System.Drawing.Size(98, 33);
             this.BttnLast.TabIndex = 37;
@@ -184,7 +184,7 @@
             // 
             this.BttnNext.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnNext.Location = new System.Drawing.Point(391, 511);
-            this.BttnNext.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnNext.Margin = new System.Windows.Forms.Padding(2);
             this.BttnNext.Name = "BttnNext";
             this.BttnNext.Size = new System.Drawing.Size(98, 33);
             this.BttnNext.TabIndex = 35;
@@ -195,7 +195,7 @@
             // 
             this.BttnPrevious.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnPrevious.Location = new System.Drawing.Point(534, 511);
-            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnPrevious.Margin = new System.Windows.Forms.Padding(2);
             this.BttnPrevious.Name = "BttnPrevious";
             this.BttnPrevious.Size = new System.Drawing.Size(98, 33);
             this.BttnPrevious.TabIndex = 36;
@@ -206,7 +206,7 @@
             // 
             this.BttnFirst.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BttnFirst.Location = new System.Drawing.Point(246, 511);
-            this.BttnFirst.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.BttnFirst.Margin = new System.Windows.Forms.Padding(2);
             this.BttnFirst.Name = "BttnFirst";
             this.BttnFirst.Size = new System.Drawing.Size(98, 33);
             this.BttnFirst.TabIndex = 34;
@@ -218,7 +218,7 @@
             this.TxtbxPrdctDesc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctDesc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxPrdctDesc.Location = new System.Drawing.Point(246, 456);
-            this.TxtbxPrdctDesc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrdctDesc.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxPrdctDesc.Name = "TxtbxPrdctDesc";
             this.TxtbxPrdctDesc.Size = new System.Drawing.Size(528, 32);
             this.TxtbxPrdctDesc.TabIndex = 33;
@@ -228,7 +228,7 @@
             this.TxtbxMSRP.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxMSRP.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxMSRP.Location = new System.Drawing.Point(246, 404);
-            this.TxtbxMSRP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxMSRP.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxMSRP.Name = "TxtbxMSRP";
             this.TxtbxMSRP.Size = new System.Drawing.Size(528, 32);
             this.TxtbxMSRP.TabIndex = 32;
@@ -238,7 +238,7 @@
             this.TxtbxBuyPrc.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxBuyPrc.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxBuyPrc.Location = new System.Drawing.Point(246, 352);
-            this.TxtbxBuyPrc.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxBuyPrc.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxBuyPrc.Name = "TxtbxBuyPrc";
             this.TxtbxBuyPrc.Size = new System.Drawing.Size(528, 32);
             this.TxtbxBuyPrc.TabIndex = 31;
@@ -248,17 +248,18 @@
             this.TxtbxPrdctCd.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctCd.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxPrdctCd.Location = new System.Drawing.Point(246, 20);
-            this.TxtbxPrdctCd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrdctCd.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxPrdctCd.Name = "TxtbxPrdctCd";
             this.TxtbxPrdctCd.Size = new System.Drawing.Size(232, 32);
             this.TxtbxPrdctCd.TabIndex = 30;
+            this.TxtbxPrdctCd.TextChanged += new System.EventHandler(this.TxtbxPrdctCd_TextChanged);
             // 
             // TxtbxPrdctLn
             // 
             this.TxtbxPrdctLn.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctLn.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxPrdctLn.Location = new System.Drawing.Point(246, 72);
-            this.TxtbxPrdctLn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrdctLn.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxPrdctLn.Name = "TxtbxPrdctLn";
             this.TxtbxPrdctLn.Size = new System.Drawing.Size(232, 32);
             this.TxtbxPrdctLn.TabIndex = 29;
@@ -268,7 +269,7 @@
             this.TxtbxPrdctScl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctScl.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxPrdctScl.Location = new System.Drawing.Point(246, 124);
-            this.TxtbxPrdctScl.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrdctScl.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxPrdctScl.Name = "TxtbxPrdctScl";
             this.TxtbxPrdctScl.Size = new System.Drawing.Size(232, 32);
             this.TxtbxPrdctScl.TabIndex = 28;
@@ -278,7 +279,7 @@
             this.TxtbxPrdctNm.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctNm.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxPrdctNm.Location = new System.Drawing.Point(246, 183);
-            this.TxtbxPrdctNm.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrdctNm.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxPrdctNm.Name = "TxtbxPrdctNm";
             this.TxtbxPrdctNm.Size = new System.Drawing.Size(528, 32);
             this.TxtbxPrdctNm.TabIndex = 27;
@@ -288,7 +289,7 @@
             this.TxtbxPrdctVndr.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxPrdctVndr.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxPrdctVndr.Location = new System.Drawing.Point(246, 237);
-            this.TxtbxPrdctVndr.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxPrdctVndr.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxPrdctVndr.Name = "TxtbxPrdctVndr";
             this.TxtbxPrdctVndr.Size = new System.Drawing.Size(528, 32);
             this.TxtbxPrdctVndr.TabIndex = 26;
@@ -394,7 +395,7 @@
             this.TxtbxQntStck.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TxtbxQntStck.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TxtbxQntStck.Location = new System.Drawing.Point(246, 295);
-            this.TxtbxQntStck.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.TxtbxQntStck.Margin = new System.Windows.Forms.Padding(2);
             this.TxtbxQntStck.Name = "TxtbxQntStck";
             this.TxtbxQntStck.Size = new System.Drawing.Size(528, 32);
             this.TxtbxQntStck.TabIndex = 17;
@@ -416,9 +417,9 @@
             this.ViewPrdcts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ViewPrdcts.Controls.Add(this.DtgrdPrdcts);
             this.ViewPrdcts.Location = new System.Drawing.Point(4, 22);
-            this.ViewPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ViewPrdcts.Margin = new System.Windows.Forms.Padding(2);
             this.ViewPrdcts.Name = "ViewPrdcts";
-            this.ViewPrdcts.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ViewPrdcts.Padding = new System.Windows.Forms.Padding(2);
             this.ViewPrdcts.Size = new System.Drawing.Size(795, 574);
             this.ViewPrdcts.TabIndex = 1;
             this.ViewPrdcts.Text = "View Products";
@@ -429,7 +430,7 @@
             this.DtgrdPrdcts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.DtgrdPrdcts.Dock = System.Windows.Forms.DockStyle.Fill;
             this.DtgrdPrdcts.Location = new System.Drawing.Point(2, 2);
-            this.DtgrdPrdcts.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.DtgrdPrdcts.Margin = new System.Windows.Forms.Padding(2);
             this.DtgrdPrdcts.Name = "DtgrdPrdcts";
             this.DtgrdPrdcts.RowHeadersWidth = 51;
             this.DtgrdPrdcts.RowTemplate.Height = 24;
@@ -443,9 +444,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(799, 594);
             this.Controls.Add(this.TbcntrlPrdcts);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmProducts";
             this.Text = "Products";
+            this.Load += new System.EventHandler(this.FrmProducts_Load);
             this.TbcntrlPrdcts.ResumeLayout(false);
             this.NewPrdcts.ResumeLayout(false);
             this.NewPrdcts.PerformLayout();

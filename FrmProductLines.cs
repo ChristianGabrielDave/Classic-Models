@@ -12,9 +12,20 @@ namespace ClassicModels
 {
     public partial class FrmProductLines : Form
     {
+        ClassicModelsMain cm = new ClassicModelsMain();
         public FrmProductLines()
         {
             InitializeComponent();
+        }
+
+        private void FrmProductLines_Load(object sender, EventArgs e)
+        {
+            cm.SelectProductLines(DtgrdPrdctLns);
+        }
+
+        private void BttnNew_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

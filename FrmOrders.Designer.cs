@@ -384,6 +384,7 @@
             this.DtgrdOrdrs.RowTemplate.Height = 24;
             this.DtgrdOrdrs.Size = new System.Drawing.Size(768, 348);
             this.DtgrdOrdrs.TabIndex = 0;
+            this.DtgrdOrdrs.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DtgrdOrdrs_CellContentClick);
             // 
             // FrmOrders
             // 
@@ -395,6 +396,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "FrmOrders";
             this.Text = "Orders";
+            this.Load += new System.EventHandler(this.FrmOrders_Load);
             this.TbcntrlOrdrs.ResumeLayout(false);
             this.NewOrdrs.ResumeLayout(false);
             this.NewOrdrs.PerformLayout();

@@ -20,7 +20,7 @@ namespace ClassicModels
         private DataTable dt = new DataTable();
         private MySqlDataReader MySqlDataReader = null;
 
-        private string connstring = @"server=localhost;userid=root;password=minecraft24;database=classicmodels";
+        private string connstring = @"server=localhost;userid=root;password=gabbydave3224;database=classicmodels";
 
 
         public bool Authentication1(string username, string password)
